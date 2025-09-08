@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+html{
+    scroll-behavior: smooth;
+        background-color: white;
+}
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('./public/fonts/Product Sans Regular.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MyCustomFont', sans-serif;
+}
