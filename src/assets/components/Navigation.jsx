@@ -4,13 +4,13 @@ import logo from '../../../public/images/logo.png';
 export const Navigation = () => {
   return (
     <>
-    <div className='w-full navbar bg-white text-black border-b justify-center'>
+    <div className='w-full navbar bg-white text-black border-b justify-center max-w-7xl mx-auto'>
        
             <Link to="/">
               <img src={logo} className='w-35' alt="Logo" />
             </Link>
         </div>
-      <div className="navbar shadow-sm bg-white text-black  ">
+      <div className="navbar shadow-b-sm bg-white text-black  max-w-7xl mx-auto">
         
         <div className="navbar-center flex w-full justify-center">
           <ul className="menu menu-horizontal px-4">
