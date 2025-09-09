@@ -22,15 +22,15 @@ function App() {
    <Routes>
     <Route path="/" element={<HomePage />} />
     <Route path="/contact" element={<ContactPage />} />
-    <Route path="/insights" element={<InsightPage />} />
-    <Route path="/join" element={<JoinUsPage />} />
+    <Route path="/insight" element={<InsightPage />} />
+    <Route path="/join-us" element={<JoinUsPage />} />
     <Route path="/our-firm" element={<OurFirm />} />
     <Route path="/our-team" element={<OurTeam />} />
-    <Route path="/practice" element={<PracticePage />} />
-    <Route path="/register" element={<RegisterForm />} />
-    <Route path="/appointment" element={<AppointmenPage />} />
+    {/* <Route path="/practice" element={<PracticePage />} /> */}
+    {/* <Route path="/register" element={<RegisterForm />} />
+    <Route path="/appointment" element={<AppointmenPage />} /> */}
     </Routes>
-    {/* <Footer /> */}
+    <Footer />
   </div>
     </>
   )
