@@ -21,7 +21,7 @@ const OurTeam = () => {
       </div>
 
       {/* Team Section Title */}
-      <div className="bg-[#016241] text-white text-center font-bold py-3 mx-auto w-[70%] tracking-wider mb-10">
+      <div className="bg-[#016241] text-white text-center font-bold py-3 mx-auto w-[70%] lg:w-[25%] tracking-wider mb-10">
         <h1>Our Team</h1>
       </div>
 

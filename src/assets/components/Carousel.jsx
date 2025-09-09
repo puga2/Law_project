@@ -13,7 +13,7 @@ const Carousel = () => {
   const prev = () => setCurrent((prev) => (prev - 1 + carouselImages.length) % carouselImages.length);
 
   useEffect(() => {
-    timeoutRef.current = setTimeout(next, 8000); // auto-slide every 3s
+    timeoutRef.current = setTimeout(next, 5000); // auto-slide every 5s
     return () => clearTimeout(timeoutRef.current);
   }, [current]);
 
