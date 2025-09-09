@@ -1,13 +1,9 @@
 // filepath: d:\React\Law_Project\src\assets\pages\OurFirm.jsx
 import React, { useRef, useState, useEffect } from "react";
+import pheakImg from "../../../public/images/pheak.png";
 
-const carouselImages = [
-  "../../../public/images/pheak.png",
-  "../../../public/images/pheak.png",
-  "../../../public/images/pheak.png",
-  "../../../public/images/pheak.png",
+const carouselImages = [pheakImg, pheakImg, pheakImg, pheakImg];
 
-];
 
 const Carousel = () => {
   const [current, setCurrent] = useState(0);
