@@ -28,7 +28,7 @@ const JoinUsPage = () => {
           {/* <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" /> */}
          
           {/* box left  */}
-          <div className="bg-[#016241] md:w-[35%]  text-white pt-15 pb-15 h-auto ">
+          <div className="bg-[#016241] md:w-[35%]  text-white  py-6 md:pt-15 md:pb-15 h-auto ">
 
               <h2 className="text-center text-xl   tracking-wide ">This course include:</h2>
             <ul className="py-6 tracking-wider font-normal text-lg leading-loose mx-10 list-disc">
@@ -39,7 +39,7 @@ const JoinUsPage = () => {
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, exercitationem.</li>
             </ul>
           </div>
-          <div className="bg-white/80 shadow-lg md:w-[65%] p-15">
+          <div className="bg-white/80 shadow-lg md:w-[65%]  p-6 md:p-15">
             <h2 className="text-2xl md:text-3xl font-bold text-[#016241] tracking-wide">
               Training Course
             </h2>
