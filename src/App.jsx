@@ -12,6 +12,7 @@ import RegisterForm from './assets/pages/Action/RegisterForm'
 import AppointmenPage from './assets/pages/Action/AppointmenPage'
 import Footer from './assets/components/Footer'
 import { Navigation } from './assets/components/Navigation'
+import FloatingLegalChat from './assets/components/FloatingLegalChat'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
     {/* <Route path="/register" element={<RegisterForm />} />
     <Route path="/appointment" element={<AppointmenPage />} /> */}
     </Routes>
+    <FloatingLegalChat/>
     <Footer />
   </div>
     </>
