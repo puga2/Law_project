@@ -87,9 +87,9 @@ export default function DynamicLegalChat() {
 
       {/* Chat Window */}
       {open && (
-        <div className="fixed z-50 bottom-20 right-5 w-[90vw] sm:w-96 max-w-sm md:w-96 bg-base-100 shadow-xl rounded-2xl flex flex-col border border-gray-300">
+        <div className="fixed z-50 bottom-20 right-5 w-[90vw] sm:w-96 max-w-sm md:w-96 bg-base-100 shadow-xl flex flex-col border border-gray-300">
           {/* Header */}
-          <div className="p-3 border-b font-bold text-lg bg-base-200 rounded-t-2xl flex justify-between items-center">
+          <div className="p-3 border-b font-bold text-lg bg-base-200  flex justify-between items-center">
             ⚖️ Legal Chat
             <button onClick={() => setOpen(false)} className="text-gray-500 hover:text-gray-800">
               ✖
@@ -97,13 +97,16 @@ export default function DynamicLegalChat() {
           </div>
 
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-3 space-y-2 max-h-[50vh] sm:max-h-[230px]">
+          <div className="flex-1 overflow-y-auto p-3 space-y-2 max-h-[50vh] sm:max-h-[280px] md:max-h-[600px]">
             {messages.map((msg, idx) => (
               <div
                 key={idx}
                 className={`chat ${msg.sender === "user" ? "chat-end" : "chat-start"}`}
               >
-                <div className={`chat-bubble ${msg.sender === "user" ? "chat-bubble-primary" : "chat-bubble-secondary"}`}>
+                <div
+                  className={`chat-bubble ${msg.sender === "user" ? "chat-bubble-primary" : ""}`}
+                  style={msg.sender !== "user" ? { backgroundColor: "#016241", color: "#fff" } : {}}
+                >
                   {msg.text}
                 </div>
               </div>
