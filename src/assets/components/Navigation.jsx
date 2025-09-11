@@ -25,15 +25,15 @@ export const Navigation = () => {
             {navLinks.map((link) => (
               <li
                 key={link.path}
-                className="px-2 sm:px-2.5 lg:px-4 md:px-5 text-[13px] sm:text-lg md:text-[20px]"
+                className="px-1.5 sm:px-2.5 lg:px-4 md:px-5 text-[13px] sm:text-lg md:text-[20px]"
               >
                 <NavLink 
                   to={link.path}
                   className={({ isActive }) =>
                     `relative px-0 after:content-[''] after:absolute after:left-0 after:-bottom-0
                      after:h-[2px] after:w-0 after:bg-[#016241] after:transition-all after:duration-300
-                     hover:after:w-full !bg-transparent hover:text-[#016241]
-                     ${isActive ? "after:w-full" : ""}`
+                     hover:after:w-full !bg-transparent hover:text-[#016241] 
+                     ${isActive ? "after:w-full text-[#016241]" : ""}`
                   }
                 >
                   {link.label}
