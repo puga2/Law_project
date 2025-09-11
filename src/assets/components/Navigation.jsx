@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router"; // use NavLink instead of Link
+import { NavLink } from "react-router-dom"; // use NavLink instead of Link
 import logo from "../../../public/images/logo.png";
 
 export const Navigation = () => {

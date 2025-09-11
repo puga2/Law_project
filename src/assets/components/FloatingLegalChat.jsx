@@ -97,7 +97,7 @@ export default function DynamicLegalChat() {
           </div>
 
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-3 space-y-2 max-h-[50vh] sm:max-h-[280px] md:max-h-[600px]">
+          <div className="flex-1 overflow-y-auto p-3 space-y-2 max-h-[50vh] sm:max-h-[280px] md:max-h-[380px]">
             {messages.map((msg, idx) => (
               <div
                 key={idx}
