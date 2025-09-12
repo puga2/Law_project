@@ -1,3 +1,8 @@
 npm run dev
 npm install react-router-dom
 npm install react-icons --save
+
+
+daisyUI 5.1.8
+tailwind 4.1
+React v19.1

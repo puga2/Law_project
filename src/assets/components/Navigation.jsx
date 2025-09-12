@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom"; // use NavLink instead of Link
-import logo from "../../../public/images/logo.png";
+import logo from "/images/logo.png";
 
 export const Navigation = () => {
   const navLinks = [
@@ -9,6 +9,7 @@ export const Navigation = () => {
     { path: "/insight", label: "Insight" },
     { path: "/contact", label: "Contact" },
     { path: "/join-us", label: "Join Us" },
+    { path: "/practice", label: "Practice" },
   ];
 
   return (

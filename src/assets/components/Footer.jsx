@@ -2,7 +2,7 @@ import React from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
-import footer from "../../../public/images/footer.png"
+import footer from "/images/footer.png"
 const Footer = () => {
   return (
     <>

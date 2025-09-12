@@ -1,6 +1,6 @@
 // filepath: d:\React\Law_Project\src\assets\pages\OurFirm.jsx
 import React, { useRef, useState, useEffect } from "react";
-import pheakImg from "../../../public/images/pheak.png";
+import pheakImg from "/images/pheak.png";
 
 const carouselImages = [pheakImg, pheakImg, pheakImg, pheakImg];
 

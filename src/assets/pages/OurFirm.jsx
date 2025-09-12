@@ -1,5 +1,5 @@
 import React from "react";
-import ourfirm from "../../../public/images/OurFirm.png";
+import ourfirm from "/images/OurFirm.png";
 import Carousel from "../components/Carousel";
 // import home from "../../../public/images/home.png";
 const OurFirm = () => {

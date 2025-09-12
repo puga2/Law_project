@@ -6,7 +6,7 @@ html{
 }
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('./public/fonts/Product Sans Regular.ttf') format('truetype');
+  src: url('/fonts/Product Sans Regular.ttf') format('truetype');
 }
 
 body{
