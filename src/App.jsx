@@ -28,8 +28,8 @@ function App() {
     <Route path="/our-firm" element={<OurFirm />} />
     <Route path="/our-team" element={<OurTeam />} />
     <Route path="/practice" element={<PracticePage />} />
-    {/* <Route path="/register" element={<RegisterForm />} />
-    <Route path="/appointment" element={<AppointmenPage />} /> */}
+    <Route path="/register" element={<RegisterForm />} />
+    <Route path="/appointment" element={<AppointmenPage />} />
     </Routes>
     <FloatingLegalChat/>
     <Footer />

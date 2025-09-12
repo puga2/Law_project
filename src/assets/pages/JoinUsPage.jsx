@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const JoinUsPage = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div
@@ -55,7 +57,12 @@ const JoinUsPage = () => {
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
             </p>
-            <button className="btn btn-lg bg-[#016241] font-normal border-none">Register Now</button>
+          <button
+      className="btn btn-lg bg-[#016241] font-normal border-none"
+      onClick={() => navigate("/register")}
+    >
+      Register Now  
+    </button>
           </div>
         </div>
       </div>
