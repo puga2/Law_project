@@ -47,7 +47,7 @@ const ContactPage = () => {
                     <FaPhoneAlt className="size-4 md:size-10 icon " />
                   </div>
 
-                  <h2 className="text-lg   tracking-wider">087 271 888</h2>
+                  <h2 className="text-lg   tracking-wider">+855-16-271-888</h2>
                 </div>
               </div>
               <div className="w-1/3 px-4 pt-20 pb-20 text-white ">
@@ -57,7 +57,7 @@ const ContactPage = () => {
                   </div>
 
                   <h2 className="text-lg   tracking-wider">
-                    ann@ann-associates.com
+                    contact@ann-associates.com
                   </h2>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const ContactPage = () => {
             <IoLocation className="size-5" />
           </div>
           <h2 className="text-base md:text-lg tracking-wider">
-            No. 356, Street Boeng Totueng Thngai, OCIC Chroy Changvar, Phnom Penh Cambodia
+            #360, OCIC Chroy Changvar, Khan Chroy Changvar, Phnom Penh Cambodia
           </h2>
         </div>
         {/* Phone */}
@@ -87,14 +87,14 @@ const ContactPage = () => {
           <div className="bg-[#016241] w-10 h-10 flex justify-center items-center rounded-full mb-6">
             <FaPhoneAlt className="size-5 " />
           </div>
-          <h2 className="text-base md:text-lg tracking-wider">087 271 888</h2>
-        </div>
+            <h2 className="text-base md:text-lg tracking-wider">087 271 888</h2>
+          </div>
         {/* Email */}
         <div className="w-full md:w-1/3 px-4 flex flex-col items-center text-center text-white">
           <div className="bg-[#016241] w-10 h-10 flex justify-center items-center rounded-full mb-6">
             <MdEmail className="size-5" />
           </div>
-          <h2 className="text-base md:text-lg tracking-wider">ann@ann-associates.com</h2>
+          <h2 className="text-base md:text-lg tracking-wider">contact@ann-associates.com</h2>
         </div>
       </div>
 
