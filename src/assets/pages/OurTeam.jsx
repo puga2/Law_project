@@ -1,5 +1,9 @@
 import React from "react";
-import m1 from "/images/m1.png";
+import chandarith from "/images/chandarith.jpg";
+import sovanndeth from "/images/sovanndeth.jpg";
+import sophavann from "/images/sophavann.jpg";
+import buntheng from "/images/buntheng.jpg";
+import sovathana  from "/images/sovathana.jpg";
 
 const OurTeam = () => {
   return (
@@ -31,14 +35,14 @@ const OurTeam = () => {
   {/* Card 1 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
     <img
-      src={m1}
+      src={sovathana}
       alt="Heng Chandarith - Associates"
       className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
-        <h2 className="text-xl font-bold tracking-wide">Heng Chandarith</h2>
-        <p>Associates</p>
+        <h2 className="text-xl font-bold tracking-wide">Ann Sovathana</h2>
+        <p>Director</p>
       </div>
     </div>
   </div>
@@ -46,13 +50,13 @@ const OurTeam = () => {
   {/* Card 2 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
     <img
-      src={m1}
-      alt="Heng Chandarith - Associates"
+      src={sovanndeth}
+      alt="Kong Sovanndeth - Associates"
       className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
-        <h2 className="text-xl font-bold tracking-wide">Heng Chandarith</h2>
+        <h2 className="text-xl font-bold tracking-wide">Kong Sovanndeth</h2>
         <p>Associates</p>
       </div>
     </div>
@@ -61,14 +65,14 @@ const OurTeam = () => {
   {/* Card 3 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
     <img
-      src={m1}
-      alt="Heng Chandarith - Associates"
+      src={sophavann}
+      alt="La Sophavann - Associates"
       className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
-        <h2 className="text-xl font-bold tracking-wide">Heng Chandarith</h2>
-        <p>Associates</p>
+        <h2 className="text-xl font-bold tracking-wide">La Sophavann</h2>
+        <p>Junior Associate</p>
       </div>
     </div>
   </div>
@@ -76,14 +80,14 @@ const OurTeam = () => {
   {/* Card 4 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
     <img
-      src={m1}
-      alt="New Member - Position"
+      src={buntheng}
+      alt="Kean Buntheng - Associates"
       className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
-        <h2 className="text-xl font-bold tracking-wide">New Member</h2>
-        <p>Position</p>
+        <h2 className="text-xl font-bold tracking-wide">Kean Buntheng</h2>
+        <p>Junior Associate</p>
       </div>
     </div>
   </div>
@@ -91,14 +95,14 @@ const OurTeam = () => {
   {/* Card 5 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
     <img
-      src={m1}
-      alt="New Member - Position"
+      src={chandarith}
+      alt="Heng Chandarith"
       className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
-        <h2 className="text-xl font-bold tracking-wide">New Member</h2>
-        <p>Position</p>
+        <h2 className="text-xl font-bold tracking-wide">Heng Chandarith</h2>
+        <p>Associate</p>
       </div>
     </div>
   </div>

@@ -47,7 +47,7 @@ const ContactPage = () => {
                     <FaPhoneAlt className="size-4 md:size-10 icon " />
                   </div>
 
-                  <h2 className="text-lg   tracking-wider">096 37 77 172</h2>
+                  <h2 className="text-lg   tracking-wider">087 271 888</h2>
                 </div>
               </div>
               <div className="w-1/3 px-4 pt-20 pb-20 text-white ">
@@ -87,7 +87,7 @@ const ContactPage = () => {
           <div className="bg-[#016241] w-10 h-10 flex justify-center items-center rounded-full mb-6">
             <FaPhoneAlt className="size-5 " />
           </div>
-          <h2 className="text-base md:text-lg tracking-wider">096 37 77 172</h2>
+          <h2 className="text-base md:text-lg tracking-wider">087 271 888</h2>
         </div>
         {/* Email */}
         <div className="w-full md:w-1/3 px-4 flex flex-col items-center text-center text-white">
@@ -97,16 +97,17 @@ const ContactPage = () => {
           <h2 className="text-base md:text-lg tracking-wider">ann@ann-associates.com</h2>
         </div>
       </div>
- <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086284573629!2d-122.41941528468133!3d37.77492977975967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c2b0f7c4d%3A0x8b37a3cbd82adf4!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1632952726950!5m2!1sen!2sus"
-        width="100%"
-        height="500"
-        style={{ border: 0 }}
-        allowFullScreen
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        title="Google Map"
-      ></iframe>
+
+      <iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4636.077352779081!2d104.9259625!3d11.5983334!3m2!1i1024!2i768!4f16!3m3!1m2!1s0x3109538b1e121053%3A0xeec1f6556ef44cb2!2sAnn%20%26%20Associates!5e1!3m2!1sen!2skh!4v1759329373425!5m2!1sen!2skh"
+  width="100%"
+  height="500"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Google Map"
+/>
       </div>
     </>
   );

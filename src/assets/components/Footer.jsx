@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer sm:footer-horizontal bg-neutral  text-neutral-content py-20 ">
 <div className=" container mx-auto w-full max-w-[1250px] flex flex-col sm:flex-row justify-between gap-y-10 lg:gap-x-55 px-4 sm:px-8 md:px-10 lg:px-5 xl:px-0">
     <aside className=''>
-    <img src={footer} alt="" />
+    <img src={footer} alt="" width="65%" />
     <p className='pt-5'>
      ANN is a term derived from Sanskrit meaning limitless
       <br />
@@ -22,16 +22,17 @@ const Footer = () => {
   <div className="grid grid-flow-row gap-6 justify-items-start w-full ">
   <span className="link link-hover inline-flex   text-lg">
     <IoLocation className="size-6  " />
-     <p className='ps-3 textarea-md md:text-lg'> No. 356, Street Boeng Totueng Thngai, OCIC Chroy Changvar, Phnom Penh Cambodia</p>
+     <p className='ps-3 textarea-md md:text-lg'> #360, OCIC Chroy Changvar, Khan Chroy Changvar, Phnom Penh
+Cambodia</p>
   </span>
   <span className="link link-hover inline-flex items-center gap-2 text-lg">
     <FaPhoneAlt className="size-5" />
-    <p className='ps-3 textarea-md md:text-lg'>    087 271 888
+    <p className='ps-3 textarea-md md:text-lg'>    +855-16-271-888
 </p>
   </span>
   <span className="link link-hover inline-flex items-center gap-2 text-lg">
     <MdEmail className="size-5" />
-    <p className='ps-3 textarea-md md:text-lg'>    ann@ann-associates.com
+    <p className='ps-3 textarea-md md:text-lg'>    contact@ann-associates.com
 </p>
   </span>
 </div>

@@ -14,7 +14,7 @@ export const Navigation = () => {
 
   return (
     <>
-      <div className="w-full navbar bg-white text-black border-b justify-center max-w-7xl mx-auto relative z-10">
+      <div className="w-full navbar bg-white text-black border-b justify-center max-w-7xl mx-auto relative py-5 z-10">
         <NavLink to="/">
           <img src={logo} className="w-35" alt="Logo" />
         </NavLink>
