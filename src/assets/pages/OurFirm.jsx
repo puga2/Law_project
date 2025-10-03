@@ -23,19 +23,10 @@ const OurFirm = () => {
           <div className="w-full lg:w-[to-50%] flex justify-end z-10 ">
             <div className="bg-[#016241]/30  p-10  w-full max-w-lg text-center">
               <h1 className="text-3xl font-bold mb-4 text-[#016241]">
-                Our Firm
+                1. INTRODUCTION TO THE FIRM
               </h1>
               <p className="text-[#016241] text-lg md:text-xl ">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+            ANN & ASSOCIATES CO., LTD. (ANN & A.) is a private limited company, duly established and incorporated under the laws of the Kingdom of Cambodia. The firm operates with three primary missions: to provide business consultation services relating to law, business, and taxation. Drawing on more than a decade of experience with prominent law firms in Cambodia and extensive service to both local and multinational corporations since 2009, ANN & A. utilises its comprehensive expertise alongside advanced digital technology to provide support for emerging businesses and digital startups. The firm is committed to guiding clients confidently through the complexities of today's regulatory landscape.                 
               </p>
             </div>
           </div>
@@ -43,19 +34,10 @@ const OurFirm = () => {
           <div className="w-full lg:w-[to-50%] flex   z-10">
             <div className="bg-[#016241]  p-10 w-full max-w-lg text-center">
               <h1 className="text-3xl font-bold mb-4 text-white">
-                Diversity & Inclusivity
+              2. OUR EXPERIENCES
               </h1>
               <p className="text-white text-lg md:text-xl">
-                Our approach to diversity and inclusivity is founded on the
-                principles of acceptance and trust. Diversity of age, gender,
-                nationality and sexual orientation are at the centre of our
-                business. Diversity is the key to collaboration. We recruit the
-                best and brightest talent to create a vibrant workplace with
-                high performance teams. This encourages everyone to reach their
-                full potential.  Our inclusive workplace deliver benefit to our
-                clients who receive the highest standards of service and
-                support. Bun & Associates is a modern, progressive business that
-                is committed to diversity and inclusivity.
+                Since its inception, our firm has provided guidance on numerous major projects, supported by a highly experienced, multilingual, and multidisciplinary team. We have cultivated strong relationships with key public and local authorities, international organizations, and industry leaders. Leveraging a robust regional network, we are well-positioned to advance our clients’ interests. Our extensive professional expertise and experience have enabled us to contribute to a wide range of significant projects.
               </p>
             </div>
           </div>
