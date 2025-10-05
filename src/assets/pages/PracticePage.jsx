@@ -3,6 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
 import pheak from "/images/pheak.png";
+import herobanner from "/images/herobanner.jpg";
 const PracticePage = () => {
   return (
     <>
@@ -10,8 +11,7 @@ const PracticePage = () => {
         <div
           className="hero h-[60vh]     lg:mb-50 relative"
           style={{
-            backgroundImage:
-              "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+           backgroundImage: `url(${herobanner})`
           }}
         >
           <div className="hero-overlay"></div>
@@ -27,7 +27,7 @@ const PracticePage = () => {
           </div>
         </div>
         {/* contact */}
-        <div className="hidden lg:block max-w-7xl mx-auto px-4  bg-[#016241] absolute  left-1/2    lg:top-9/11 -translate-x-1/2 -translate-y-1/2 w-full ">
+        <div className="hidden lg:block max-w-7xl mx-auto px-4  bg-[#016241] absolute  left-1/2    lg:top-9/10 -translate-x-1/2 -translate-y-1/2 w-full ">
           {/* big screen show only */}
           <div className="">
             <div className="flex justify-between flex-wrap">
@@ -90,12 +90,12 @@ const PracticePage = () => {
 
       {/* handler  */}
       <div className=" mx-auto max-w-7xl ">
-        <div className="flex flex-col-reverse  lg:flex-row flex-wrap  justify-between items-center   w-full px-0">
+        <div className="flex flex-col-reverse  lg:flex-row flex-wrap  justify-between items-center   w-full px-0 ">
           {/* <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" /> */}
 
           {/* box left  */}
-          <div className="  w-full lg:w-[55%] text-center order-1 p-3 lg:p-5">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#016241] tracking-wide">
+          <div className="  w-full lg:w-[55%] text-center order-1 p-3 lg:p-5 mt-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#016241] tracking-wide ">
               Banking, Finance
             </h2>
             <p className="py-6 tracking-wider text-black text-lg leading-loose">

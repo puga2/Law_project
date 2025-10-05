@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+import herobanner from "/images/herobanner.jpg";
 const InsightPage = () => {
   return (
     <>
    <main className="min-h-screen bg-cover bg-fixed "
   
     style={{
-          backgroundImage:
-            "url(https://t3.ftcdn.net/jpg/02/89/87/32/360_F_289873298_R6OHqOHcglPMoQFgqilcFZMF11Z7gxlx.jpg)",
+          backgroundImage: `url(${herobanner})`
         }}
    >
        <div

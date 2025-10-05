@@ -6,10 +6,11 @@ export const Navigation = () => {
   const navLinks = [
     { path: "/our-firm", label: "Our Firm" },
     { path: "/our-team", label: "Our Team" },
+    { path: "/practice", label: "Practice" },
     { path: "/insight", label: "Insight" },
     { path: "/contact", label: "Contact" },
     { path: "/join-us", label: "Join Us" },
-    { path: "/practice", label: "Practice" },
+ 
   ];
 
   return (

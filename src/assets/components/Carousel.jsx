@@ -1,29 +1,40 @@
 // filepath: d:\React\Law_Project\src\assets\pages\OurFirm.jsx
 import React, { useEffect, useRef, useState } from "react";
-import pheakImg from "/images/pheak.png";
+import chandarith from "/images/chandarith.jpg";
+import sovanndeth from "/images/sovanndeth.jpg";
+import sophavann from "/images/sophavann.jpg";
+import buntheng from "/images/buntheng.jpg";
+import sovathana from "/images/sovathana.jpg";
 
-const originalImages = [pheakImg, pheakImg, pheakImg, pheakImg];
-// duplicate images to create "infinite" effect
-const carouselImages = [...originalImages, ...originalImages];
+// Team data
+const team = [
+  { image: sovathana, name: "Saom Ann Sovathana", position: "Director" },
+  { image: sovanndeth, name: "Kong Sovanndeth", position: "Associates" },
+  { image: chandarith, name: "Heng Chandarith", position: "Associate" },
+  { image: sophavann, name: "La Sophavann", position: "Junior Associate" },
+  { image: buntheng, name: "Kean Buntheng", position: "Junior Associate" },
+];
+
+// Duplicate for infinite effect
+const carouselData = [...team, ...team];
 
 const Carousel = () => {
   const [current, setCurrent] = useState(0);
   const timeoutRef = useRef(null);
 
-  const next = () => setCurrent((prev) => (prev + 1) % carouselImages.length);
-  const prev = () => setCurrent((prev) => (prev - 1 + carouselImages.length) % carouselImages.length);
+  const next = () => setCurrent((prev) => (prev + 1) % carouselData.length);
+  const prev = () => setCurrent((prev) => (prev - 1 + carouselData.length) % carouselData.length);
 
   useEffect(() => {
-    timeoutRef.current = setInterval(next, 3000); // auto-slide every 3s
+    timeoutRef.current = setInterval(next, 3000);
     return () => clearInterval(timeoutRef.current);
   }, []);
 
-  // Reset index when reaching the end of duplicate set
   useEffect(() => {
-    if (current >= originalImages.length) {
+    if (current >= team.length) {
       const id = setTimeout(() => {
-        setCurrent(0); // jump back instantly to start
-      }, 500); // small delay to let transition finish
+        setCurrent(0);
+      }, 500);
       return () => clearTimeout(id);
     }
   }, [current]);
@@ -35,34 +46,34 @@ const Carousel = () => {
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{
-            transform: `translateX(-${current * 50}%)`, // 2 cards at a time
+            transform: `translateX(-${current * 50}%)`,
           }}
         >
-          {carouselImages.map((src, idx) => (
+          {carouselData.map((member, idx) => (
             <div
               key={idx}
               className="carousel-item shrink-0 w-1/2 md:w-1/3 px-2 relative"
             >
               <img
-                src={src}
-                alt={`carousel-${idx}`}
+                src={member.image}
+                alt={member.name}
                 className="w-fit object-cover"
               />
-              <div className="absolute bottom-7 bg-white/35 mx-10 py-3 left-0 right-0 bg-opacity-75 text-center">
-                <h2 className="text-lg font-bold mt-2 text-black">
-                  Saom Sopheak {idx + 1}
+              <div className="absolute bottom-7 bg-white/95 mx-2 sm:mx-10 py-1 sm:py-3 left-0 right-0 bg-opacity-75 text-center">
+                <h2 className="text-sm sm:text-lg font-bold mt-2 text-[#016241] tracking-wide">
+                  {member.name}
                 </h2>
-                <p className="text-black text-md">Partner</p>
+                <p className="text-black text-[10px] sm:text-md">{member.position}</p>
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Navigation buttons OUTSIDE overflow-hidden */}
+      {/* Navigation buttons */}
       <button
         className="btn btn-circle absolute left-[-0.5em] md:left-[-2.5rem] size-7 bg-[#a5a5a5] border-0 shadow-none top-1/2 -translate-y-1/2 z-10"
-        onClick={() => setCurrent((prev) => prev - 1)}
+        onClick={prev}
       >
         ❮
       </button>

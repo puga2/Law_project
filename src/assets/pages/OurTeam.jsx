@@ -5,14 +5,15 @@ import sophavann from "/images/sophavann.jpg";
 import buntheng from "/images/buntheng.jpg";
 import sovathana  from "/images/sovathana.jpg";
 
+import herobanner from "/images/herobanner.jpg";
+
 const OurTeam = () => {
   return (
     <>
       <div
         className="hero h-[60vh] mb-15"
         style={{
-          backgroundImage:
-            "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+          backgroundImage: `url(${herobanner})`,
         }}
       >
         <div className="hero-overlay"></div>
@@ -62,6 +63,20 @@ const OurTeam = () => {
     </div>
   </div>
 
+ {/* Card 5 */}
+  <div className="relative w-full max-w-[342px] h-[447px]">
+    <img
+      src={chandarith}
+      alt="Heng Chandarith"
+      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+    />
+    <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
+      <div className="text-center text-white">
+        <h2 className="text-xl font-bold tracking-wide">Heng Chandarith</h2>
+        <p>Associate</p>
+      </div>
+    </div>
+  </div>
   {/* Card 3 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
     <img
@@ -92,20 +107,7 @@ const OurTeam = () => {
     </div>
   </div>
 
-  {/* Card 5 */}
-  <div className="relative w-full max-w-[342px] h-[447px]">
-    <img
-      src={chandarith}
-      alt="Heng Chandarith"
-      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
-    />
-    <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
-      <div className="text-center text-white">
-        <h2 className="text-xl font-bold tracking-wide">Heng Chandarith</h2>
-        <p>Associate</p>
-      </div>
-    </div>
-  </div>
+ 
 </div>
       </div>
     </>

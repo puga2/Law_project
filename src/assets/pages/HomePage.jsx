@@ -17,7 +17,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* feature  */}
-      <div className="hero bg-base-content mx-auto max-w-7xl mb-10">
+      <div className="hero bg-[#ECF9FF] mx-auto max-w-7xl mb-10">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse justify-center items-start p-4 md:p-8 lg:p-12 w-full">
           <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" />
           <div>

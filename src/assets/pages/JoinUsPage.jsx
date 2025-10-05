@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+
+import herobanner from "/images/herobanner.jpg";
 const JoinUsPage = () => {
   const navigate = useNavigate();
   return (
@@ -8,8 +10,7 @@ const JoinUsPage = () => {
       <div
         className="hero h-[60vh] "
         style={{
-          backgroundImage:
-            "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+           backgroundImage: `url(${herobanner})`
         }}
       >
         <div className="hero-overlay"></div>

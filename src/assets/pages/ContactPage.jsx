@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
+
+import herobanner from "/images/herobanner.jpg";
 const ContactPage = () => {
   return (
     <>
@@ -10,8 +12,7 @@ const ContactPage = () => {
         <div
           className="hero h-[60vh]   lg:mb-40 relative"
           style={{
-            backgroundImage:
-              "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+             backgroundImage: `url(${herobanner})`
           }}
         >
           <div className="hero-overlay"></div>
@@ -25,7 +26,7 @@ const ContactPage = () => {
           </div>
         </div>
         {/* contact */}
-        <div className="hidden lg:block max-w-7xl mx-auto px-4  bg-gray-700  absolute  left-1/2   lg:top-9/11 -translate-x-1/2 -translate-y-1/2 w-full ">
+        <div className="hidden lg:block max-w-7xl mx-auto px-4  bg-gray-700  absolute  left-1/2   lg:top-9/10 -translate-x-1/2 -translate-y-1/2 w-full ">
         {/* big screen show only */}
           <div className="">
             <div className="flex justify-between flex-wrap">
@@ -70,7 +71,7 @@ const ContactPage = () => {
 
 
          
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto mb-8">
           {/* small screen show */}
             <div className=" flex lg:hidden bg-gray-700  flex-col md:flex-row justify-center items-stretch gap-6 py-8">
         {/* Address */}
