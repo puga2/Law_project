@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
+import phnom from "/images/phnom.jpg";
 import herobanner from "/images/herobanner.jpg";
 const InsightPage = () => {
   return (
@@ -9,14 +10,14 @@ const InsightPage = () => {
    <main className="min-h-screen bg-cover bg-fixed "
   
     style={{
-          backgroundImage: `url(${herobanner})`
+          backgroundImage: `url(${phnom})`
         }}
    >
        <div
         className="hero h-[60vh] mb-10"
         style={{
           backgroundImage:
-            "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+            `url(${herobanner})`,
         }}
       >
         <div className="hero-overlay"></div>

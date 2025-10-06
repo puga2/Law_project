@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-
+import phnom from "/images/phnom.jpg";
 import herobanner from "/images/herobanner.jpg";
 const JoinUsPage = () => {
   const navigate = useNavigate();
@@ -24,8 +24,8 @@ const JoinUsPage = () => {
       {/* feature  */}
      <div  className="h-auto py-13 object-cover no-repeat bg-cover" style={{
           backgroundImage:
-            "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
-        }}>
+           `url(${phnom})`
+       }}>
        <div className=" mx-auto max-w-7xl ">
         <div className="flex flex-col-reverse md:flex-row-reverse  justify-between items-stretch   w-full px-0">
           {/* <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" /> */}
