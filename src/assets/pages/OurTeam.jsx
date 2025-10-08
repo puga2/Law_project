@@ -33,21 +33,7 @@ const OurTeam = () => {
       {/* Responsive Team Cards */}
       <div className="max-w-7xl mx-auto px-4 py-10">
      <div className="flex flex-wrap justify-center gap-6">
-  {/* Card 1 */}
-  <div className="relative w-full max-w-[342px] h-[447px]">
-    <img
-      src={sovathana}
-      alt="Heng Chandarith - Associates"
-      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
-    />
-    <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
-      <div className="text-center text-white">
-        <h2 className="text-xl font-bold tracking-wide">Ann Sovathana</h2>
-        <p>Director</p>
-      </div>
-    </div>
-  </div>
-
+ 
   {/* Card 2 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
     <img
@@ -59,6 +45,20 @@ const OurTeam = () => {
       <div className="text-center text-white">
         <h2 className="text-xl font-bold tracking-wide">Kong Sovanndeth</h2>
         <p>Associates</p>
+      </div>
+    </div>
+  </div>
+ {/* Card 1 */}
+  <div className="relative w-full max-w-[342px] h-[447px]">
+    <img
+      src={sovathana}
+      alt="Heng Chandarith - Associates"
+      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+    />
+    <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
+      <div className="text-center text-white">
+        <h2 className="text-xl font-bold tracking-wide">Ann Sovathana</h2>
+        <p>Director</p>
       </div>
     </div>
   </div>

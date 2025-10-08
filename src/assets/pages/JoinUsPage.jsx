@@ -59,7 +59,7 @@ const JoinUsPage = () => {
               Lorem Ipsum.
             </p>
           <button
-      className="btn btn-lg bg-[#016241] font-normal border-none"
+      className="btn btn-lg bg-[#016241] text-white font-normal border-none"
       onClick={() => navigate("/register")}
     >
       Register Now  

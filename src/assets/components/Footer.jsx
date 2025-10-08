@@ -77,7 +77,7 @@ Cambodia</p>
 </footer>
 <footer className="footer sm:footer-horizontal footer-center bg-[#016241] text-base-content p-4">
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by ANN & Associates</p>
+    <p>Copyright © {new Date().getFullYear()} - All right reserved by Ann & Associates</p>
   </aside>
 </footer>
     </>

@@ -40,7 +40,7 @@ const InsightPage = () => {
             Decision on RTS Installations Fees and Compensation Tariff
           </p>
 
-          <Link className="underline underline-offset-5 text-xl">
+          <Link className="underline underline-offset-5 text-xl text-white">
             READ MORE
           </Link>
         </div>
@@ -53,7 +53,7 @@ const InsightPage = () => {
             Decision on RTS Installations Fees and Compensation Tariff
           </p>
 
-          <Link className="underline underline-offset-5 text-xl">
+          <Link className="underline underline-offset-5 text-xl text-white">
             READ MORE
           </Link>
         </div>
@@ -73,7 +73,7 @@ const InsightPage = () => {
               <p className="text-lg py-5   w-full">
                 19/06/2025
               </p>
-              <Link className="underline underline-offset-5 text-xl  w-full">
+              <Link className="underline underline-offset-5 text-xl  w-full text-white">
                 READ MORE
               </Link>
             </div>
@@ -91,7 +91,7 @@ const InsightPage = () => {
                     <p className="text-lg py-5   w-full">
                       19/06/2025
                     </p>
-                    <Link className="underline underline-offset-5 text-xl   w-full">
+                    <Link className="underline underline-offset-5 text-xl   w-full text-white">
                       READ MORE
                     </Link>
                   </div>
@@ -105,7 +105,7 @@ const InsightPage = () => {
                     <p className="text-lg py-5   w-full">
                       19/06/2025
                     </p>
-                    <Link className="underline underline-offset-5 text-xl   w-full">
+                    <Link className="underline underline-offset-5 text-xl   w-full text-white">
                       READ MORE
                     </Link>
                   </div>
@@ -129,7 +129,7 @@ const InsightPage = () => {
                 Installations Fees and Compensation Tariff Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, dolorum.
               </h2>
               
-              <Link className="underline underline-offset-5 text-lg lg:text-xl    w-full">
+              <Link className="underline underline-offset-5 text-lg lg:text-xl    w-full text-black">
                 READ MORE
               </Link>
             </div>
@@ -146,7 +146,7 @@ const InsightPage = () => {
                       Installations Fees and Compensation Tariff Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quasi.
                     </h2>
                    
-                    <Link className="underline underline-offset-5 text-lg   w-full">
+                    <Link className="underline underline-offset-5 text-lg   w-full text-black">
                       READ MORE
                     </Link>
                   </div>
@@ -158,7 +158,7 @@ const InsightPage = () => {
                       Installations Fees and Compensation Tariff Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quasi.
                     </h2>
                    
-                    <Link className="underline underline-offset-5 text-lg   w-full">
+                    <Link className="underline underline-offset-5 text-lg   w-full text-black">
                       READ MORE
                     </Link>
                   </div>
@@ -169,7 +169,7 @@ const InsightPage = () => {
                       Installations Fees and Compensation Tariff Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quasi.
                     </h2>
 
-                    <Link className="underline underline-offset-5 text-lg   w-full">
+                    <Link className="underline underline-offset-5 text-lg   w-full text-black">
                       READ MORE
                     </Link>
                   </div>
