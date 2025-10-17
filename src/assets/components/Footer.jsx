@@ -11,9 +11,7 @@ const Footer = () => {
     <aside className=''>
     <img src={footer} alt="" width="65%" />
     <p className='pt-5'>
-     ANN is a term derived from Sanskrit meaning limitless
-      <br />
-      Providing reliable tech since 1992
+    your trust partner
     </p>
   </aside>
   <nav>
