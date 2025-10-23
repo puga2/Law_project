@@ -2,15 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-import phnom from "/images/phnom.jpg";
+import temple from "/images/temple.jpg";
 import herobanner from "/images/herobanner.jpg";
 const InsightPage = () => {
   return (
     <>
-   <main className="min-h-screen bg-cover bg-fixed "
+   <main className="min-h-screen  bg-[30%] bg-cover bg-fixed "
   
     style={{
-          backgroundImage: `url(${phnom})`
+          backgroundImage: `url(${temple})`
         }}
    >
        <div

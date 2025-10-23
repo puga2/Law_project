@@ -22,14 +22,14 @@ const JoinUsPage = () => {
         </div>
       </div>
       {/* feature  */}
-     <div  className="h-auto py-13 object-cover no-repeat bg-cover" style={{
+     <div  className="h-auto py-13 bg-[70%] no-repeat bg-cover" style={{
           backgroundImage:
            `url(${phnom})`
        }}>
        <div className=" mx-auto max-w-7xl ">
         <div className="flex flex-col-reverse md:flex-row-reverse  justify-between items-stretch   w-full px-0">
           {/* <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" /> */}
-         
+
           {/* box left  */}
           <div className="bg-[#016241] md:w-[35%]  text-white  py-6 lg:pt-15 lg:pb-15 h-auto ">
 

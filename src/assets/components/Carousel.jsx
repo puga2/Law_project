@@ -63,7 +63,7 @@ const Carousel = () => {
                 <h2 className="text-sm sm:text-lg font-bold mt-2 text-[#016241] tracking-wide">
                   {member.name}
                 </h2>
-                <p className="text-black text-[10px] sm:text-md">{member.position}</p>
+                <p className="text-black sm:text-md text-[13px] ">{member.position}</p>
               </div>
             </div>
           ))}
