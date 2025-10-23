@@ -10,8 +10,8 @@ const Footer = () => {
 <div className=" container mx-auto w-full max-w-[1250px] flex flex-col sm:flex-row justify-between gap-y-10 lg:gap-x-55 px-4 sm:px-8 md:px-10 lg:px-5 xl:px-0">
     <aside className=''>
     <img src={footer} alt="" width="65%" />
-    <p className='pt-5'>
-    your trust partner
+    <p className='pt-5 text-2xl'>
+    Law & Business
     </p>
   </aside>
   <nav>
