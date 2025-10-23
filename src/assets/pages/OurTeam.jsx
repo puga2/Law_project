@@ -35,12 +35,10 @@ const OurTeam = () => {
      <div className="flex flex-wrap justify-center gap-6">
  
   {/* Card 2 */}
-  <div className="relative w-full max-w-[342px] h-[447px]">
-    <img
-      src={sovanndeth}
-      alt="Kong Sovanndeth - Associates"
-      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
-    />
+  <div
+  className="relative w-full max-w-[342px] h-[447px] rounded-tl-3xl rounded-br-3xl bg-center bg-cover"
+  style={{ backgroundImage: `url(${sovanndeth})` }}
+>
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
         <h2 className="text-xl font-bold tracking-wide">Kong Sovanndeth</h2>
@@ -50,10 +48,11 @@ const OurTeam = () => {
   </div>
  {/* Card 1 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
-    <img
-      src={sovathana}
-      alt="Heng Chandarith - Associates"
-      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+    <div
+      className="w-full h-full bg-center bg-cover rounded-tl-3xl rounded-br-3xl"
+      style={{ backgroundImage: `url(${sovathana})` }}
+      role="img"
+      aria-label="Ann Sovathana"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
@@ -65,10 +64,11 @@ const OurTeam = () => {
 
  {/* Card 5 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
-    <img
-      src={chandarith}
-      alt="Heng Chandarith"
-      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+    <div
+      className="w-full h-full bg-center bg-cover rounded-tl-3xl rounded-br-3xl"
+      style={{ backgroundImage: `url(${chandarith})` }}
+      role="img"
+      aria-label="Heng Chandarith"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
@@ -79,10 +79,11 @@ const OurTeam = () => {
   </div>
   {/* Card 3 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
-    <img
-      src={sophavann}
-      alt="La Sophavann - Associates"
-      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+    <div
+      className="w-full h-full bg-center bg-cover rounded-tl-3xl rounded-br-3xl"
+      style={{ backgroundImage: `url(${sophavann})` }}
+      role="img"
+      aria-label="La Sophavann"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
@@ -94,10 +95,11 @@ const OurTeam = () => {
 
   {/* Card 4 */}
   <div className="relative w-full max-w-[342px] h-[447px]">
-    <img
-      src={buntheng}
-      alt="Kean Buntheng - Associates"
-      className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+    <div
+      className="w-full h-full bg-center bg-cover rounded-tl-3xl rounded-br-3xl"
+      style={{ backgroundImage: `url(${buntheng})` }}
+      role="img"
+      aria-label="Kean Buntheng"
     />
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
