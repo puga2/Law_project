@@ -11,7 +11,7 @@ const Footer = () => {
     <aside className=''>
     <img src={footer} alt="" width="65%" />
     <p className='pt-5 text-2xl'>
-    Law & Business
+    Law. Business. Tax
     </p>
   </aside>
   <nav>
