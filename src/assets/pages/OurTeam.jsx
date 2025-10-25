@@ -36,7 +36,7 @@ const OurTeam = () => {
  
   {/* Card 2 */}
   <div
-  className="relative w-full max-w-[342px] h-[447px] rounded-tl-3xl rounded-br-3xl bg-center bg-cover"
+  className="relative w-full max-w-[342px] h-[447px] rounded-tl-3xl rounded-br-3xl bg-center bg-cover order-2 md:order-1"
   style={{ backgroundImage: `url(${sovanndeth})` }}
 >
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
@@ -47,7 +47,7 @@ const OurTeam = () => {
     </div>
   </div>
  {/* Card 1 */}
-  <div className="relative w-full max-w-[342px] h-[447px]">
+  <div className="relative w-full max-w-[342px] h-[447px] order-1 md:order-2">
     <div
       className="w-full h-full bg-center bg-cover rounded-tl-3xl rounded-br-3xl"
       style={{ backgroundImage: `url(${sovathana})` }}
@@ -63,7 +63,7 @@ const OurTeam = () => {
   </div>
 
  {/* Card 5 */}
-  <div className="relative w-full max-w-[342px] h-[447px]">
+  <div className="relative w-full max-w-[342px] h-[447px] order-3">
     <div
       className="w-full h-full bg-center bg-cover rounded-tl-3xl rounded-br-3xl"
       style={{ backgroundImage: `url(${chandarith})` }}
@@ -78,7 +78,7 @@ const OurTeam = () => {
     </div>
   </div>
   {/* Card 3 */}
-  <div className="relative w-full max-w-[342px] h-[447px]">
+  <div className="relative w-full max-w-[342px] h-[447px] order-4">
     <div
       className="w-full h-full bg-center bg-cover rounded-tl-3xl rounded-br-3xl"
       style={{ backgroundImage: `url(${sophavann})` }}
@@ -94,7 +94,7 @@ const OurTeam = () => {
   </div>
 
   {/* Card 4 */}
-  <div className="relative w-full max-w-[342px] h-[447px]">
+  <div className="relative w-full max-w-[342px] h-[447px] order-5">
     <div
       className="w-full h-full bg-center bg-cover rounded-tl-3xl rounded-br-3xl"
       style={{ backgroundImage: `url(${buntheng})` }}

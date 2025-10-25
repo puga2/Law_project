@@ -7,11 +7,10 @@ const HomePage = () => {
         <div className="hero-content px-10 md:px-25 py-20  justify-start items-start ">
           <div className="mx-0 ">
             <h1 className="text-3xl md:text-6xl font-bold text-start tracking-wide">
-              ANN Law Office
+              ANN & ASSOCIATES CO., LTD.
             </h1>
-            <p className="py-6 text-lg font-normal tracking-wide">
-              leading full-service law firm <br />
-              operation in Cambodia
+            <p className="py-6 text-sm md:text-lg font-normal tracking-wide">
+              ANN & ASSOCIATES CO., LTD. (ANN & A.) is a private limited company, duly established and incorporated under the laws of the Kingdom of Cambodia.
             </p>
           </div>
         </div>
