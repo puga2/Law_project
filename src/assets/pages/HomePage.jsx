@@ -6,11 +6,11 @@ const HomePage = () => {
       <div className=" bg-[#016241]  mx-auto h-[337px]  max-w-7xl rounded-b-3xl mb-15">
         <div className="hero-content px-10 md:px-25 py-20  justify-start items-start ">
           <div className="mx-0 ">
-            <h1 className="text-3xl md:text-6xl font-bold text-start tracking-wide">
+            <h1 className="text-2xl md:text-6xl font-bold text-start tracking-wide">
               ANN & ASSOCIATES CO., LTD.
             </h1>
-            <p className="py-6 text-sm md:text-lg font-normal tracking-wide">
-              ANN & ASSOCIATES CO., LTD. (ANN & A.) is a private limited company, duly established and incorporated under the laws of the Kingdom of Cambodia.
+            <p className="py-6 text-sm md:text-lg text-white font-normal tracking-wide">
+              ANN & ASSOCIATES CO., LTD. (ANN & A.) is a private limited company,<br /> duly established and incorporated under the laws of the Kingdom of Cambodia.
             </p>
           </div>
         </div>
@@ -21,7 +21,7 @@ const HomePage = () => {
           <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" />
           <div>
             <h1 className="text-3xl md:text-4xl font-bold text-[#016241] tracking-wide">
-              ANN Law Office is a <br /> leading full-service law firm <br />{" "}
+             ANN & ASSOCIATES CO., LTD. is a <br /> leading full-service law firm <br />{" "}
               operating in Cambodia.
             </h1>
             <hr className="w-[280px] md:w-[480px] border-t-8 border-[#016241] my-4" />

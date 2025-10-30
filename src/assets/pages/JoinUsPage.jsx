@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import phnom from "/images/phnom.jpg";
+import temple from "/images/temple.jpg";
 import herobanner from "/images/herobanner.jpg";
 const JoinUsPage = () => {
   const navigate = useNavigate();
@@ -24,7 +25,7 @@ const JoinUsPage = () => {
       {/* feature  */}
      <div  className="h-auto py-13 bg-[70%] no-repeat bg-cover" style={{
           backgroundImage:
-           `url(${phnom})`
+           `url(${temple})`
        }}>
        <div className=" mx-auto max-w-7xl ">
         <div className="flex flex-col-reverse md:flex-row-reverse  justify-between items-stretch   w-full px-0">

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import temple from "/images/temple.jpg";
 const RegisterForm = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const RegisterForm = () => {
         className="hero min-h-[70vh] flex items-center justify-center"
         style={{
           backgroundImage:
-            "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+            `url(${temple})`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
