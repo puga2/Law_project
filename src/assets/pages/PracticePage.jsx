@@ -111,7 +111,7 @@ const PracticePage = () => {
             </p>
           </div>
           <div className=" lg:w-[45%]   text-white   order-2   py-6 lg:pt-15 lg:pb-15 w-full">
-            <div className="card card-side  rounded-none bg-base-100  py-5 pl-4">
+            <div className="card card-side  rounded-none bg-[#1D232A]  py-5 pl-4">
               <figure>
                 <img
                   src={pheak} className="h-60"
@@ -145,7 +145,7 @@ const PracticePage = () => {
           
            {/* box 2 */}
             <div className=" lg:w-[45%]  text-white order-4  lg:order-3   py-6 lg:pt-15 lg:pb-15 w-full">
-            <div className="card card-side  rounded-none bg-base-100  py-5 pl-4">
+            <div className="card card-side  rounded-none bg-[#1D232A]  py-5 pl-4">
               <figure>
                 <img
                   src={pheak} className="h-60"
@@ -212,7 +212,7 @@ const PracticePage = () => {
             </p>
           </div>
                 <div className=" lg:w-[45%]  text-white  order-6   py-6 lg:pt-15 lg:pb-15 w-full">
-            <div className="card card-side  rounded-none bg-base-100  py-5 pl-4">
+            <div className="card card-side  rounded-none bg-[#1D232A]  py-5 pl-4">
               <figure>
                 <img
                   src={pheak} className="h-60"

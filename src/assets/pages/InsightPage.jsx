@@ -66,11 +66,11 @@ const InsightPage = () => {
           <div className="flex flex-wrap md:flex-col lg:flex-row justify-center gap-4">
             {/* Card 1 */}
             <div className="w-full lg:w-[48%] px-5 md:px-5 text-start ">
-              <h2 className="text-2xl md:text-3xl  md:text-left w-full">
+              <h2 className="text-2xl md:text-3xl text-white  md:text-left w-full">
                 Client Alert | Energy | Cambodia EAC Issues Decision on RTS
                 Installations Fees and Compensation Tariff
               </h2>
-              <p className="text-lg py-5   w-full">
+              <p className="text-lg py-5 text-white  w-full">
                 19/06/2025
               </p>
               <Link className="underline underline-offset-5 text-xl  w-full text-white">
@@ -84,11 +84,11 @@ const InsightPage = () => {
                 <div className="flex flex-wrap md:flex-col justify-between gap-4">
                   {/* Inner Card 1 */}
                   <div className="w-full text-start ">
-                    <h2 className="text-2xl   w-full">
+                    <h2 className="text-2xl text-white  w-full">
                       Client Alert | Energy | Cambodia EAC Issues Decision on RTS
                       Installations Fees and Compensation Tariff
                     </h2>
-                    <p className="text-lg py-5   w-full">
+                    <p className="text-lg py-5  text-white w-full">
                       19/06/2025
                     </p>
                     <Link className="underline underline-offset-5 text-xl   w-full text-white">
@@ -98,11 +98,11 @@ const InsightPage = () => {
 
                   {/* Inner Card 2 */}
                   <div className="w-full text-start ">
-                    <h2 className="text-2xl   w-full">
+                    <h2 className="text-2xl text-white  w-full">
                       Client Alert | Energy | Cambodia EAC Issues Decision on RTS
                       Installations Fees and Compensation Tariff
                     </h2>
-                    <p className="text-lg py-5   w-full">
+                    <p className="text-lg py-5 text-white  w-full">
                       19/06/2025
                     </p>
                     <Link className="underline underline-offset-5 text-xl   w-full text-white">
