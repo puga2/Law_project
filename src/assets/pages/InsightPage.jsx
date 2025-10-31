@@ -2,19 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-import temple from "/images/temple.jpg";
+// import temple from "/images/temple.jpg";
 import herobanner from "/images/herobanner.jpg";
 const InsightPage = () => {
   return (
     <>
-   <main className="min-h-screen  bg-[30%] bg-cover bg-fixed "
+   <main className=" bg-[30%] bg-cover bg-fixed "
   
-    style={{
-          backgroundImage: `url(${temple})`
-        }}
+    // style={{
+    //       backgroundImage: `url(${temple})`
+    //     }}
    >
        <div
-        className="hero h-[60vh] mb-10"
+        className="hero h-[60vh] "
         style={{
           backgroundImage:
             `url(${herobanner})`,
@@ -29,7 +29,7 @@ const InsightPage = () => {
         </div>
       </div>
 
-      {/* feedback */}
+{/* 
       <div className="max-w-7xl mx-auto px-4  bg-gray-700 rounded-lg mb-10">
         <div className=" px-2 md:px-8 pt-8">
           <p className="mb-5 leading-loose text-lg text-white tracking-wider">
@@ -59,12 +59,12 @@ const InsightPage = () => {
         </div>
       </div>
 
-      {/* feature 2 */}
-
+ 
+  
       <div className="bg-[#016241] w-full">
         <div className="max-w-7xl mx-auto py-10">
           <div className="flex flex-wrap md:flex-col lg:flex-row justify-center gap-4">
-            {/* Card 1 */}
+      
             <div className="w-full lg:w-[48%] px-5 md:px-5 text-start ">
               <h2 className="text-2xl md:text-3xl text-white  md:text-left w-full">
                 Client Alert | Energy | Cambodia EAC Issues Decision on RTS
@@ -78,11 +78,11 @@ const InsightPage = () => {
               </Link>
             </div>
 
-            {/* Card 2 */}
+    
             <div className="w-full lg:w-[48%] px-5 md:px-5">
               <div className="w-full">
                 <div className="flex flex-wrap md:flex-col justify-between gap-4">
-                  {/* Inner Card 1 */}
+            
                   <div className="w-full text-start ">
                     <h2 className="text-2xl text-white  w-full">
                       Client Alert | Energy | Cambodia EAC Issues Decision on RTS
@@ -96,7 +96,7 @@ const InsightPage = () => {
                     </Link>
                   </div>
 
-                  {/* Inner Card 2 */}
+             
                   <div className="w-full text-start ">
                     <h2 className="text-2xl text-white  w-full">
                       Client Alert | Energy | Cambodia EAC Issues Decision on RTS
@@ -115,13 +115,13 @@ const InsightPage = () => {
           </div>
         </div>
       </div>
-      {/* feature 3 */}
+ 
       <div className=" w-full " 
    
         >
         <div className="max-w-7xl mx-auto py-10 text-black">
           <div className="flex flex-wrap md:flex-col lg:flex-row justify-between ">
-            {/* Card 1 */}
+
             <div className="w-full  lg:w-[35%] mb-10">
               <div className="px-5 lg:px-10 pt-5 pb-7  lg:pb-20 text-start bg-white/80 rounded-2xl   mx-5">
               <h2 className="text-lg lg:text-3xl pt-0  lg:pt-20  w-full mb-4 lg:mb-10 mx-0">
@@ -135,11 +135,11 @@ const InsightPage = () => {
             </div>
             </div>
 
-            {/* Card 2 */}
+        
             <div className="w-full lg:w-[63%] px-5 md:px-5 ">
               <div className="w-full">
                 <div className="flex flex-wrap md:flex-col justify-between gap-y-10">
-                  {/* Inner Card 1 */}
+       
                   <div className="w-full text-start px-5 pt-5 pb-7  bg-white/80 rounded-2xl">
                     <h2 className="text-lg   w-full mb-5">
                       Client Alert | Energy | Cambodia EAC Issues Decision on RTS
@@ -151,7 +151,7 @@ const InsightPage = () => {
                     </Link>
                   </div>
 
-                  {/* Inner Card 2 */}
+          
                    <div className="w-full text-start px-5 pt-5 pb-7  bg-white/80 rounded-2xl">
                     <h2 className="text-lg   w-full mb-5">
                       Client Alert | Energy | Cambodia EAC Issues Decision on RTS
@@ -162,7 +162,7 @@ const InsightPage = () => {
                       READ MORE
                     </Link>
                   </div>
-                  {/* Inner Card 3 */}
+    
                    <div className="w-full text-start px-5 pt-5 pb-7  bg-white/80 rounded-2xl">
                     <h2 className="text-lg   w-full mb-5">
                       Client Alert | Energy | Cambodia EAC Issues Decision on RTS
@@ -178,7 +178,7 @@ const InsightPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
    </main>
     </>
   );

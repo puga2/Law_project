@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import phnom from "/images/phnom.jpg";
+// import phnom from "/images/phnom.jpg";
 import temple from "/images/temple.jpg";
 import herobanner from "/images/herobanner.jpg";
 const JoinUsPage = () => {
@@ -48,7 +48,7 @@ const JoinUsPage = () => {
               Training Course
             </h2>
             <p className="py-6 tracking-wider text-black text-xl leading-loose">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+              Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has

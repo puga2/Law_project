@@ -2,7 +2,7 @@ import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
-import pheak from "/images/pheak.png";
+// import pheak from "/images/pheak.png";
 import herobanner from "/images/herobanner.jpg";
 const PracticePage = () => {
   return (
@@ -88,12 +88,10 @@ const PracticePage = () => {
         </div>
       </div>
 
-      {/* handler  */}
-      <div className=" mx-auto max-w-7xl ">
+     
+      {/* <div className=" mx-auto max-w-7xl ">
         <div className="flex flex-col-reverse  lg:flex-row flex-wrap  justify-between items-center   w-full px-0 ">
-          {/* <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" /> */}
-
-          {/* box left  */}
+        
           <div className="  w-full lg:w-[55%] text-center order-1 p-3 lg:p-5 mt-10">
             <h2 className="text-2xl md:text-3xl font-bold text-[#016241] tracking-wide ">
               Banking, Finance
@@ -143,7 +141,7 @@ const PracticePage = () => {
             </div>
           </div>
           
-           {/* box 2 */}
+        
             <div className=" lg:w-[45%]  text-white order-4  lg:order-3   py-6 lg:pt-15 lg:pb-15 w-full">
             <div className="card card-side  rounded-none bg-[#1D232A]  py-5 pl-4">
               <figure>
@@ -194,7 +192,7 @@ const PracticePage = () => {
             </p>
           </div>
          
-           {/* box 3 */}
+
               <div className="  w-full lg:w-[55%] text-center order-5  p-3 lg:p-5">
             <h2 className="text-2xl md:text-3xl font-bold text-[#016241] tracking-wide">
               Banking, Finance
@@ -246,7 +244,7 @@ const PracticePage = () => {
          
        
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
