@@ -15,7 +15,7 @@ const PracticePage = () => {
           }}
         >
           <div className="hero-overlay"></div>
-          <div className="hero-content text-neutral-content text-center">
+          <div className="hero-content text-neutral-content text-center  mt-25">
             <div className="max-w-md">
               <h1 className="mb-5 text-6xl font-bold tracking-wide">
                 What We Solve
@@ -27,7 +27,7 @@ const PracticePage = () => {
           </div>
         </div>
         {/* contact */}
-        <div className="hidden lg:block max-w-7xl mx-auto px-4  bg-[#016241] absolute  left-1/2    lg:top-9/10 -translate-x-1/2 -translate-y-1/2 w-full ">
+        <div className="hidden lg:block max-w-7xl mx-auto px-4  bg-[#016241] absolute  left-1/2    lg:top-8/10 -translate-x-1/2 -translate-y-1/2 w-full ">
           {/* big screen show only */}
           <div className="">
             <div className="flex justify-between flex-wrap">

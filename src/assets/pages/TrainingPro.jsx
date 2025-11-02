@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 // import temple from "/images/temple.jpg";
 import herobanner from "/images/herobanner.jpg";
-const InsightPage = () => {
+const TrainingPro = () => {
   return (
     <>
    <main className=" bg-[30%] bg-cover bg-fixed "
@@ -21,9 +21,9 @@ const InsightPage = () => {
         }}
       >
         <div className="hero-overlay"></div>
-        <div className="hero-content text-neutral-content text-center mt-25" >
+        <div className="hero-content text-neutral-content text-center mt-25">
           <div className="max-w-md">
-            <h1 className="mb-5 text-6xl font-bold">Insights</h1>
+            <h1 className="mb-5 text-5xl font-bold">Training Programs</h1>
             <p className="mb-5 text-2xl">Explore the news and update.</p>
           </div>
         </div>
@@ -184,4 +184,4 @@ const InsightPage = () => {
   );
 };
 
-export default InsightPage;
+export default TrainingPro;

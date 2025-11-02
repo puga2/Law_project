@@ -17,7 +17,7 @@ const OurTeam = () => {
   return (
     <>
       <div
-        className="hero h-[60vh] mb-15"
+        className="hero h-[60vh] mb-15 mt-25"
         style={{
           backgroundImage: `url(${herobanner})`,
         }}

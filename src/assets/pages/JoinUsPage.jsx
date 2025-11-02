@@ -15,7 +15,7 @@ const JoinUsPage = () => {
         }}
       >
         <div className="hero-overlay"></div>
-        <div className="hero-content text-neutral-content text-center">
+        <div className="hero-content text-neutral-content text-center mt-25">
           <div className="max-w-md">
             <h1 className="mb-5 text-6xl font-bold">Join Us</h1>
             <p className="mb-5 text-2xl">Here is our Team</p>

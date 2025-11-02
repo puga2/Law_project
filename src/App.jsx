@@ -10,6 +10,7 @@ import OurTeam from './assets/pages/OurTeam'
 import PracticePage from './assets/pages/PracticePage'
 import RegisterForm from './assets/pages/Action/RegisterForm'
 import AppointmenPage from './assets/pages/Action/AppointmenPage'
+import TrainingPro from './assets/pages/TrainingPro'
 import Footer from './assets/components/Footer'
 import { Navigation } from './assets/components/Navigation'
 import FloatingLegalChat from './assets/components/FloatingLegalChat'
@@ -30,6 +31,7 @@ function App() {
     <Route path="/practice" element={<PracticePage />} />
     <Route path="/register" element={<RegisterForm />} />
     <Route path="/appointment" element={<AppointmenPage />} />
+    <Route path="/training" element={<TrainingPro />} />
     </Routes>
     <FloatingLegalChat/>
     <Footer />

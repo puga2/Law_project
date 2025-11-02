@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom"; // use NavLink instead of Link
+import React from "react";
+import { NavLink } from "react-router-dom";
 import logo from "/images/logo.png";
 
 export const Navigation = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
   const navLinks = [
     { path: "/our-firm", label: "Our Firm" },
     { path: "/our-team", label: "Our Team" },
@@ -15,30 +13,13 @@ export const Navigation = () => {
     { path: "/training", label: "Training Program" },
   ];
 
-  useEffect(() => {
-    const onScroll = () => setIsScrolled(window.scrollY > 20);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
   return (
     <>
-      <header
-        className={`transition-all duration-300 bg-white ease-in-out ${
-          isScrolled
-            ? "fixed top-0 left-0 right-0 z-50 shadow-sm bg-white backdrop-blur-sm py-3"
-            : "relative bg-transparent py-5"
-        }`}
-      >
-        <div className="w-full navbar bg-white text-black border-b justify-center max-w-7xl mx-auto relative py-5 z-10">
+      {/* header always fixed */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white py-3 backdrop-blur-sm shadow-sm  transition-all duration-300">
+        <div className="w-full navbar bg-white text-black border-b justify-center max-w-7xl mx-auto relative py-0 z-10">
           <NavLink to="/">
-            <img
-              src={logo}
-              className={`transition-all duration-300 ease-in 
-                w-36 md:w-44
-              `}
-              alt="Logo"
-            />
+            <img src={logo} className="w-36 md:w-44" alt="Logo" />
           </NavLink>
         </div>
 
@@ -67,11 +48,9 @@ export const Navigation = () => {
           </div>
         </div>
       </header>
-       {/* spacer to prevent header from overlapping the hero when fixed */}
-     {/* <div
-       className={`${isScrolled ? "h-[200px]" : "h-0"} transition-[height] duration-300`}
-       aria-hidden="true"
-     ></div> */}
+
+      {/* spacer to avoid content being hidden under fixed header */}
+      <div className="h-16 md:h-20" aria-hidden="true" />
     </>
   );
 };

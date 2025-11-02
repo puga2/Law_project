@@ -3,7 +3,7 @@ import home from "/images/home.png";
 const HomePage = () => {
   return (
     <>
-      <div className=" bg-[#016241]  mx-auto h-[337px]  max-w-7xl rounded-b-3xl mb-15">
+      <div className=" bg-[#016241]  mx-auto h-[337px]  max-w-7xl rounded-b-3xl mb-15 mt-25">
         <div className="hero-content px-10 md:px-25 py-20  justify-start items-start ">
           <div className="mx-0 ">
             <h1 className="text-2xl text-white md:text-6xl font-bold text-start tracking-wide">

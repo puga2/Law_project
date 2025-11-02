@@ -6,7 +6,7 @@ const OurFirm = () => {
   return (
     <>
       <div
-        className="relative  min-h-screen w-full flex items-center justify-center"
+        className="relative  min-h-screen w-full flex items-center justify-center mt-27"
         style={{
           backgroundImage: `url(${ourfirm})`,
           backgroundSize: "cover",
