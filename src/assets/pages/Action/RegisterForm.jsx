@@ -4,14 +4,14 @@ const RegisterForm = () => {
   return (
     <>
       <div
-        className="hero min-h-[70vh] flex items-center justify-center"
+        className="hero min-h-[90vh] flex items-center justify-center"
         style={{
           backgroundImage:
             `url(${temple})`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
-       <div className="hero-content absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full flex justify-center items-center">
+       <div className="hero-content absolute left-1/2 top-2/4 -translate-x-1/2 -translate-y-1/3 w-full flex justify-center items-center">
     <form className="bg-white/80 shadow-lg p-6 w-full max-w-md flex flex-col justify-center gap-4 mt-15">
           <h1 className="text-xl text-[#016241] md:text-3xl font-bold ">Registeration</h1>
             <hr className="w-[280px] md:w-[25%] border-t-5  border-[#016241] " />
