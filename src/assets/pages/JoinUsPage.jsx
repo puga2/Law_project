@@ -34,30 +34,21 @@ const JoinUsPage = () => {
           {/* box left  */}
           <div className="bg-[#016241] md:w-[35%]  text-white  py-6 lg:pt-15 lg:pb-15 h-auto ">
 
-              <h2 className="text-center text-xl   tracking-wide ">This course include:</h2>
+              <h2 className="text-center text-xl   tracking-wide ">We Are Hiring for:</h2>
             <ul className="py-6 tracking-wider font-normal text-lg leading-loose mx-10 list-disc">
-              <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, exercitationem.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, exercitationem.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, exercitationem.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, exercitationem.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, exercitationem.</li>
+              <li className="">corporate compliance</li>
+              <li>Tax Compliance</li>
+              <li>Financial Compliance</li>
             </ul>
           </div>
           <div className="bg-white/80 shadow-lg md:w-[65%]  p-6 lg:p-15">
             <h2 className="text-2xl md:text-3xl font-bold text-[#016241] tracking-wide">
-              Training Course
+              Join Our Team at Ann & Associates
             </h2>
             <p className="py-6 tracking-wider text-black text-xl leading-loose">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              At Ann & Associates, we are always eager to connect with talented professionals in law, business, and tax. We value integrity, excellence, and collaboration, and we are looking for people who share these principles.
+Even if there are no current openings that match your background, we welcome your interest. We offer a supportive, high-performing environment where you can take on meaningful, challenging work.
+To be considered for future opportunities, please send your CV and a brief cover letter to <a href="mailto:contact@ann-associates.com" target="_blank">contact@ann-associates.com</a>
             </p>
           <button
       className="btn btn-lg bg-[#016241] text-white font-normal border-none"

@@ -16,8 +16,8 @@ export const Navigation = () => {
   return (
     <>
       {/* header always fixed */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white py-3 backdrop-blur-sm shadow-sm  transition-all duration-300">
-        <div className="w-full navbar bg-white text-black border-b justify-center max-w-7xl mx-auto relative py-0 z-10">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white pt-3 backdrop-blur-sm shadow-sm  transition-all duration-300">
+        <div className="w-full navbar bg-white text-black border-b justify-center max-w-7xl mx-auto relative py-3 z-10">
           <NavLink to="/">
             <img src={logo} className="w-36 md:w-44" alt="Logo" />
           </NavLink>
