@@ -34,12 +34,12 @@ const JoinUsPage = () => {
           {/* box left  */}
           <div className="bg-[#016241] md:w-[35%]  text-white  py-6 lg:pt-15 lg:pb-15 h-auto ">
 
-              <h2 className="text-center text-xl   tracking-wide ">We Are Hiring for:</h2>
+              {/* <h2 className="text-center text-xl   tracking-wide ">We Are Hiring for:</h2>
             <ul className="py-6 tracking-wider font-normal text-lg leading-loose mx-10 list-disc">
               <li className="">corporate compliance</li>
               <li>Tax Compliance</li>
               <li>Financial Compliance</li>
-            </ul>
+            </ul> */}
           </div>
           <div className="bg-white/80 shadow-lg md:w-[65%]  p-6 lg:p-15">
             <h2 className="text-2xl md:text-3xl font-bold text-[#016241] tracking-wide">
