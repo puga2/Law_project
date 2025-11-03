@@ -28,7 +28,7 @@ const Footer = () => {
     <IoLocation className="size-6" aria-hidden="true" />
     <span className="ps-3 textarea-md md:text-lg">
       #360, OCIC Chroy Changvar, Khan Chroy Changvar, Phnom Penh Cambodia
-    </span>
+    </span> 
   </a>
 
   <a

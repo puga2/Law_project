@@ -54,10 +54,7 @@ const OurFirm = () => {
             </h1>
             <hr className="w-[300px] border-t-1 border-black my-4" />
             <p className="py-6 tracking-wider text-black text-lg leading-loose">
-              Bun and Anant Associates partners, lawyers and tax specialists are
-              committed to helping you succeed. We regularly work with
-              Cambodian, regional and multinational corporates, governments and
-              government agencies and supranational organisations.
+              Our team at Ann & Associates is driven by collaboration, professionalism, and a shared goal — to deliver the best results for our clients. We take pride in working together, learning from one another, and growing together.
             </p>
           </div>
         </div>
