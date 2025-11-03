@@ -31,7 +31,13 @@ const ContactPage = () => {
           <div className="">
             <div className="flex justify-between flex-wrap">
               <div className="w-1/3 px-4 pt-20 pb-20 text-white ">
-                <div className="flex flex-col md:flex-row justify-center item-center text-center">
+                <a
+                  href="https://maps.app.goo.gl/h1PdyFd2GLa3aUoBA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col md:flex-row justify-center item-center text-center link"
+                  aria-label="Open address in Google Maps"
+                >
                   <div className="bg-[#016241] w-10 h-10  md:w-18 md:h-18 flex justify-center items-center rounded-full absolute top-[-2.5rem]">
                     <IoLocation className="size-4 md:size-10 icon " />
                   </div>
@@ -40,19 +46,27 @@ const ContactPage = () => {
                     No. 356, Street Boeng Totueng Thngai, OCIC Chroy Changvar,
                     Phnom Penh Cambodia
                   </h2>
-                </div>
-              </div>
-              <div className="w-1/3 px-4 pt-20 pb-20 text-white ">
-                <div className="flex flex-col items-center text-center">
+                </a>
+               </div>
+               <div className="w-1/3 px-4 pt-20 pb-20 text-white ">
+                <a
+                  href="tel:+855162718888"
+                  className="flex flex-col items-center text-center link"
+                  aria-label="Call +855 16 271 888"
+                >
                   <div className="bg-[#016241]  w-10 h-10   md:w-18 md:h-18 flex justify-center items-center rounded-full absolute top-[-2.5rem]">
                     <FaPhoneAlt className="size-4 md:size-10 icon " />
                   </div>
 
                   <h2 className="text-lg   tracking-wider">+855-16-271-888</h2>
-                </div>
-              </div>
-              <div className="w-1/3 px-4 pt-20 pb-20 text-white ">
-                <div className="flex flex-col items-center text-center">
+                </a>
+               </div>
+               <div className="w-1/3 px-4 pt-20 pb-20 text-white ">
+                <a
+                  href="mailto:contact@ann-associates.com"
+                  className="flex flex-col items-center text-center link"
+                  aria-label="Email contact@ann-associates.com"
+                >
                   <div className="bg-[#016241]  w-10 h-10   md:w-18 md:h-18 flex justify-center items-center rounded-full absolute top-[-2.5rem]">
                     <MdEmail className="size-4 md:size-10 icon " />
                   </div>
@@ -60,10 +74,10 @@ const ContactPage = () => {
                   <h2 className="text-lg   tracking-wider">
                     contact@ann-associates.com
                   </h2>
-                </div>
-              </div>
-            </div>
-          </div>
+                </a>
+               </div>
+             </div>
+           </div>
      
 
         </div>
@@ -75,28 +89,42 @@ const ContactPage = () => {
           {/* small screen show */}
             <div className=" flex lg:hidden bg-gray-700  flex-col md:flex-row justify-center items-stretch gap-6 py-8">
         {/* Address */}
-        <div className="w-full md:w-1/3 px-4 flex flex-col items-center text-center text-white">
+        <a
+          href="https://maps.app.goo.gl/h1PdyFd2GLa3aUoBA"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full md:w-1/3 px-4 flex flex-col items-center text-center text-white link"
+          aria-label="Open address in Google Maps"
+        >
           <div className="bg-[#016241] w-10 h-10 flex justify-center items-center rounded-full mb-6">
             <IoLocation className="size-5" />
           </div>
           <h2 className="text-base md:text-lg tracking-wider">
             #360, OCIC Chroy Changvar, Khan Chroy Changvar, Phnom Penh Cambodia
           </h2>
-        </div>
-        {/* Phone */}
-        <div className="w-full md:w-1/3 px-4 flex flex-col items-center text-center text-white">
+        </a>
+         {/* Phone */}
+        <a
+          href="tel:+855162718888"
+          className="w-full md:w-1/3 px-4 flex flex-col items-center text-center text-white link"
+          aria-label="Call +855 16 271 888"
+        >
           <div className="bg-[#016241] w-10 h-10 flex justify-center items-center rounded-full mb-6">
             <FaPhoneAlt className="size-5 " />
           </div>
-            <h2 className="text-base md:text-lg tracking-wider">087 271 888</h2>
-          </div>
-        {/* Email */}
-        <div className="w-full md:w-1/3 px-4 flex flex-col items-center text-center text-white">
+          <h2 className="text-base md:text-lg tracking-wider">087 271 888</h2>
+        </a>
+         {/* Email */}
+        <a
+          href="mailto:contact@ann-associates.com"
+          className="w-full md:w-1/3 px-4 flex flex-col items-center text-center text-white link"
+          aria-label="Email contact@ann-associates.com"
+        >
           <div className="bg-[#016241] w-10 h-10 flex justify-center items-center rounded-full mb-6">
             <MdEmail className="size-5" />
           </div>
           <h2 className="text-base md:text-lg tracking-wider">contact@ann-associates.com</h2>
-        </div>
+        </a>
       </div>
 
       <iframe
