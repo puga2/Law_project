@@ -10,7 +10,7 @@ const Footer = () => {
 <div className=" container mx-auto w-full max-w-[1250px] flex flex-col sm:flex-row justify-between gap-y-10 lg:gap-x-55 px-4 sm:px-8 md:px-10 lg:px-5 xl:px-0">
     <aside className=''>
     <img src={footer} alt="" width="65%" />
-    <p className='pt-5 text-2xl'>
+     <p className='pt-5 text-2xl'>
     Law. Business. Tax
     </p>
   </aside>
@@ -18,21 +18,36 @@ const Footer = () => {
 
     {/* <h6 className="footer-title">Contact Us</h6> */}
   <div className="grid grid-flow-row gap-6 justify-items-start w-full ">
-  <span className="link link-hover inline-flex   text-lg">
-    <IoLocation className="size-6  " />
-     <p className='ps-3 textarea-md md:text-lg'> #360, OCIC Chroy Changvar, Khan Chroy Changvar, Phnom Penh
-Cambodia</p>
-  </span>
-  <span className="link link-hover inline-flex items-center gap-2 text-lg">
-    <FaPhoneAlt className="size-5" />
-    <p className='ps-3 textarea-md md:text-lg'>    +855-16-271-888
-</p>
-  </span>
-  <span className="link link-hover inline-flex items-center gap-2 text-lg">
-    <MdEmail className="size-5" />
-    <p className='ps-3 textarea-md md:text-lg'>    contact@ann-associates.com
-</p>
-  </span>
+  <a
+    href="https://maps.app.goo.gl/h1PdyFd2GLa3aUoBA"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open address in Google Maps"
+    className="link link-hover inline-flex items-start gap-3 text-lg"
+  >
+    <IoLocation className="size-6" aria-hidden="true" />
+    <span className="ps-3 textarea-md md:text-lg">
+      #360, OCIC Chroy Changvar, Khan Chroy Changvar, Phnom Penh Cambodia
+    </span>
+  </a>
+
+  <a
+    href="tel:+855162718888"
+    aria-label="Call +855 16 271 888"
+    className="link link-hover inline-flex items-center gap-2 text-lg"
+  >
+    <FaPhoneAlt className="size-5" aria-hidden="true" />
+    <span className="ps-3 textarea-md md:text-lg">+855-16-271-888</span>
+  </a>
+
+  <a
+    href="mailto:contact@ann-associates.com"
+    aria-label="Email contact@ann-associates.com"
+    className="link link-hover inline-flex items-center gap-2 text-lg"
+  >
+    <MdEmail className="size-5" aria-hidden="true" />
+    <span className="ps-3 textarea-md md:text-lg">contact@ann-associates.com</span>
+  </a>
 </div>
     {/* <h6 className="footer-title">Social</h6>
     <div className="grid grid-flow-col gap-4">
