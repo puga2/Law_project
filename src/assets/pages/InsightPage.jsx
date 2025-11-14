@@ -24,7 +24,7 @@ const InsightPage = () => {
         <div className="hero-content text-neutral-content text-center mt-25" >
           <div className="max-w-md">
             <h1 className="mb-5 text-6xl font-bold">Insights</h1>
-            <p className="mb-5 text-2xl">Explore the news and update.</p>
+            <p className="mb-5 text-2xl">Insight under construction...</p>
           </div>
         </div>
       </div>

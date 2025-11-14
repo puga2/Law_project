@@ -2,8 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 // import phnom from "/images/phnom.jpg";
-import temple from "/images/temple.jpg";
-import herobanner from "/images/herobanner.jpg";
+// import temple from "/images/temple.jpg";
+// import HeroJoin from "/images/join.jpg";
+import join from "/images/join.jpg";
+import joinBack from "/images/joinBack.jpg";
 const JoinUsPage = () => {
   const navigate = useNavigate();
   return (
@@ -11,7 +13,7 @@ const JoinUsPage = () => {
       <div
         className="hero h-[60vh] "
         style={{
-           backgroundImage: `url(${herobanner})`
+           backgroundImage: `url(${join})`
         }}
       >
         <div className="hero-overlay"></div>
@@ -23,9 +25,9 @@ const JoinUsPage = () => {
         </div>
       </div>
       {/* feature  */}
-     <div  className="h-auto py-13 bg-[70%] no-repeat bg-cover" style={{
+     <div  className="h-auto py-13 bg-[60%] no-repeat bg-cover" style={{
           backgroundImage:
-           `url(${temple})`
+           `url(${joinBack})`
        }}>
        <div className=" mx-auto max-w-7xl ">
         <div className="flex flex-col-reverse md:flex-row-reverse  justify-between items-stretch   w-full px-0">
@@ -50,9 +52,15 @@ const JoinUsPage = () => {
 Even if there are no current openings that match your background, we welcome your interest. We offer a supportive, high-performing environment where you can take on meaningful, challenging work.
 To be considered for future opportunities, please send your CV and a brief cover letter to <a href="mailto:contact@ann-associates.com" target="_blank">contact@ann-associates.com</a>
             </p>
-          <button
-      className="btn btn-lg bg-[#016241] text-white font-normal border-none"
+          {/* <button
+      className="btn btn-lg bg-[#016241] text-white font-normal border-none disabled:cursor-not-allowed"
       onClick={() => navigate("/register")}
+    >
+      Register Now  
+    </button> */}
+     <button
+      className="btn btn-lg bg-[#016241] text-white font-normal border-none disabled:cursor-not-allowed"
+
     >
       Register Now  
     </button>

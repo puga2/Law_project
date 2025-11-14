@@ -9,7 +9,7 @@ import sovathana from "/images/sovathana.jpg";
 // Team data
 const team = [
   { image: sovathana, name: "Ann Sovathana", position: "Director" },
-  { image: sovanndeth, name: "Kong Sovanndeth", position: "Associates" },
+  { image: sovanndeth, name: "Kong Sovanndeth", position: "Associate" },
   { image: chandarith, name: "Heng Chandarith", position: "Associate" },
   { image: sophavann, name: "La Sophavann", position: "Junior Associate" },
   { image: buntheng, name: "Kean Buntheng", position: "Junior Associate" },

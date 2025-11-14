@@ -26,7 +26,7 @@ const OurFirm = () => {
                 1. INTRODUCTION TO THE FIRM
               </h1>
               <p className="text-[#016241] text-lg md:text-xl ">
-            ANN & ASSOCIATES CO., LTD. (ANN & A.) is a private limited company, duly established and incorporated under the laws of the Kingdom of Cambodia. The firm operates with three primary missions: to provide business consultation services relating to law, business, and taxation. Drawing on more than a decade of experience with prominent law firms in Cambodia and extensive service to both local and multinational corporations since 2009, ANN & A. utilises its comprehensive expertise alongside advanced digital technology to provide support for emerging businesses and digital startups. The firm is committed to guiding clients confidently through the complexities of today's regulatory landscape.                 
+            ANN & ASSOCIATES CO., LTD. (ANN & ASSOCIATES) is a private limited company, duly established and incorporated under the laws of the Kingdom of Cambodia. The firm operates with three primary missions: to provide business consultation services relating to law, business, and taxation. Drawing on more than a decade of experience with prominent law firms in Cambodia and extensive service to both local and multinational corporations since 2009, ANN & A. utilises its comprehensive expertise alongside advanced digital technology to provide support for emerging businesses and digital startups. The firm is committed to guiding clients confidently through the complexities of today's regulatory landscape.                 
               </p>
             </div>
           </div>

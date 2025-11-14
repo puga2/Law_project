@@ -63,7 +63,7 @@ const RegisterForm = () => {
             </div>
             <button
               type="submit"
-              className="btn bg-[#016241] border-0 tracking-wide text-white font-normal hover:bg-[#014d32] transition"
+              className="btn bg-[#016241] border-0 tracking-wide text-white font-normal hover:bg-[#014d32] transition disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Register
             </button>

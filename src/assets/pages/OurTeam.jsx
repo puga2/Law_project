@@ -12,6 +12,7 @@ import vouch from "/images/ourTeam/vouch.jpg";
 import  cheaey from "/images/ourTeam/cheaey.jpg";
 
 import herobanner from "/images/herobanner.jpg";
+import heroOurTeam from "/images/heroOurTeam.jpg";
 
 const OurTeam = () => {
   return (
@@ -19,7 +20,7 @@ const OurTeam = () => {
       <div
         className="hero h-[60vh] mb-15 mt-25"
         style={{
-          backgroundImage: `url(${herobanner})`,
+          backgroundImage: `url(${heroOurTeam})`,
         }}
       >
         <div className="hero-overlay"></div>
@@ -48,7 +49,7 @@ const OurTeam = () => {
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
         <h2 className="text-xl font-bold tracking-wide">Kong Sovanndeth</h2>
-        <p>Associates</p>
+        <p>Associate</p>
       </div>
     </div>
   </div>
@@ -137,8 +138,8 @@ const OurTeam = () => {
 >
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
-        <h2 className="text-xl font-bold tracking-wide">Mat Jahya</h2>
-        <p>Legal Assistant</p>
+        <h2 className="text-xl font-bold tracking-wide">Math Jahya</h2>
+        <p>Assistant</p>
       </div>
     </div>
   </div>
@@ -169,7 +170,7 @@ const OurTeam = () => {
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
         <h2 className="text-xl font-bold tracking-wide">Sreang Boranavy</h2>
-        <p>Legal Assistant</p>
+        <p>Assistant</p>
       </div>
     </div>
   </div>
@@ -184,7 +185,7 @@ const OurTeam = () => {
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
         <h2 className="text-xl font-bold tracking-wide">Vin Cheavey</h2>
-        <p>Accountant</p>
+        <p>Junior Accountant</p>
       </div>
     </div>
   </div>
@@ -200,7 +201,7 @@ const OurTeam = () => {
     <div className="absolute bottom-8 right-8 bg-[#016241] w-[80%] mx-auto py-3 flex items-center justify-center">
       <div className="text-center text-white">
         <h2 className="text-xl font-bold tracking-wide">Oeng Techvouch</h2>
-        <p>Accountant</p>
+        <p>Junior Accountant</p>
       </div>
     </div>
   </div>
