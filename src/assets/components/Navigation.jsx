@@ -65,11 +65,7 @@ export const Navigation = () => {
  <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
      
                     </li>
-                    {/* TRAINEE */}
-                    <li className="relative  hover:bg-gray-300 rounded-box  ">
-                      <a>Accounting</a>
- <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
-     
+             
                     </li>
                     {/* TRAINEE */}
                     <li className="relative  hover:bg-gray-300 rounded-box  ">
