@@ -1,6 +1,7 @@
 import React from "react";
 import home from "/images/home.png";
 import heroHome from "/images/heroHome.jpg";
+import homeImage from "/images/HomeImage.jpg";
 const HomePage = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const HomePage = () => {
       {/* feature  */}
       <div className="hero bg-[#ECF9FF] mx-auto max-w-7xl mb-10">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse justify-center items-start p-4 md:p-8 lg:p-12 w-full">
-          <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" />
+          <img src={homeImage} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" />
           <div>
             <h1 className="text-3xl md:text-4xl font-bold text-[#016241] tracking-wide">
             Your Trusted Partner 
