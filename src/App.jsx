@@ -16,6 +16,8 @@ import Membership from './assets/pages/Membership'
 import OurService from './assets/pages/OurService'
 import { Navigation } from './assets/components/Navigation'
 import FloatingLegalChat from './assets/components/FloatingLegalChat'
+import LegalPage from './assets/pages/LegalPage'
+import TaxPage from './assets/pages/TaxPage'
 
 function App() {
 
@@ -36,6 +38,8 @@ function App() {
     <Route path="/training" element={<TrainingPro />} />
     <Route path="/membership" element={<Membership />} />
       <Route path="/our-service" element={<OurService />} />
+      <Route path="/legal" element={<LegalPage />} />
+      <Route path="/tax" element={<TaxPage />} />
     </Routes>
     <FloatingLegalChat/>
     <Footer />

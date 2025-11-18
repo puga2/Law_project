@@ -5,6 +5,7 @@ import AutoCarousel from '../components/CarouselMember';
 const herobanner = "/images/herobanner.jpg";
 const AmCham  = "/images/memebership/AmCham.png";
 const Certification  = "/images/memebership/Certificate.png";
+const britcam  = "/images/memebership/britcam.jpg";
 const BritCham = "/images/memebership/BritCham.png";
 const logoAnn = "/images/memebership/logoAnn.png";
 const slide1 = "/images/memebership/slide1.png";
@@ -59,8 +60,8 @@ const Membership = () => {
 <div className="max-w-7xl mx-auto px-4 py-5">
   <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-6">
     
-    <div className="w-full bg-white flex justify-center">
-      <img src={BritCham} alt="Member left" className="w-[300px] object-cover" />
+    <div className="w-full bg-white flex justify-center items-center">
+      <img src={BritCham} alt="Member left" className="w-[300px] h-[270px] object-cover" />
     </div>
 
     <div className="w-full bg-white p-6 flex flex-col justify-center items-center text-center">
@@ -69,8 +70,8 @@ const Membership = () => {
       </h2>
     </div>
 
-    <div className="w-full bg-white flex justify-center lg:justify-end items-center">
-      <img src={Certification} alt="Cert" className="w-[300px] object-cover" />
+    <div className="w-full bg-white flex justify-center lg:justify-end items-center ">
+      <img src={britcam} alt="Cert" className="w-[300px] object-cover border border-gray-300" />
     </div>
 
   </div>
@@ -90,7 +91,7 @@ const Membership = () => {
       <div className='w-full h-full bg-black/35 absolute top-0'></div>
       <div className='flex justify-end w-full h-full absolute top-0  z-30 '>
         <div><img src={AmCham} className='h-33' alt="" /></div>
-        <div><img src={AmCham} className='h-33' alt="" /></div>
+        <div><img src={logoAnn} className='h-25 m-5' alt="" /></div>
        
         
         

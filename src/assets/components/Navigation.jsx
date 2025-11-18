@@ -1,8 +1,19 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import logo from "/images/logo.png";
 
 export const Navigation = () => {
+  const location = useLocation();
+  const serviceChildPaths = [
+    "/our-service",
+    "/Legal",
+    "/Accounting",
+    "/Tax",
+    "/BusinessConsultation",
+  ];
+  const isServiceActive = serviceChildPaths.some((p) =>
+    location.pathname.toLowerCase().startsWith(p.toLowerCase())
+  );
   return (
     <>
       {/* Header always fixed */}
@@ -33,52 +44,46 @@ export const Navigation = () => {
                 </NavLink>
               </li>
 
-          
-       {/* Our Service */}
+              {/* Our Service */}
               <li className="px-1.5 sm:px-2.5 lg:px-4 md:px-5 text-[13px] sm:text-lg md:text-[22px] dropdown dropdown-hover relative">
                 <NavLink
                   to="/our-service"
-                  className={({ isActive }) =>
+                  className={() =>
                     `relative px-0 after:content-[''] after:absolute after:left-0 after:-bottom-0
                     after:h-[2px] after:w-0 after:bg-[#016241] after:transition-all after:duration-300 
                     hover:after:w-full !bg-transparent hover:text-[#016241]
-                    ${isActive ? "after:w-full text-[#016241]" : ""}`
+                    ${isServiceActive ? "after:w-full text-[#016241]" : ""}`
                   }
                 >
                   Our Service
                 </NavLink>
                 <div className="w-50 top-7 right-4 bg-transparent h-10 absolute"></div>
-          <ul
-  tabIndex="0"
-  className="dropdown-content menu bg-white rounded-box w-52 p-2 shadow-sm"
->
-                    {/* MODULE */}
-                    <li className="relative hover:bg-gray-300 rounded-box  ">
-                      <a>Legal Service</a>
-               <div className="w-10 top-0 right-[-10%]   h-10 absolute"></div>
-             
-                    </li>
+                <ul
+                  tabIndex="0"
+                  className="dropdown-content menu bg-white rounded-box w-52 p-2 shadow-sm"
+                >
+                  {/* MODULE */}
+                  <li className="relative hover:bg-gray-300 rounded-box  ">
+                    <NavLink to="/Legal">Legal</NavLink>
+                    <div className="w-10 top-0 right-[-10%]   h-10 absolute"></div>
+                  </li>
 
-                    {/* TRAINEE */}
-                    <li className="relative  hover:bg-gray-300 rounded-box  ">
-                      <a>Accounting</a>
- <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
-     
-                    </li>
-                
-                    {/* TRAINEE */}
-                    <li className="relative  hover:bg-gray-300 rounded-box  ">
-                      <a>Tax</a>
- <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
-     
-                    </li>
-                    <li className="relative  hover:bg-gray-300 rounded-box  ">
-                      <a>Business Consultation</a>
- <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
-     
-                    </li>
-                  </ul>
+                  {/* TRAINEE */}
+                  <li className="relative  hover:bg-gray-300 rounded-box  ">
+                       <NavLink to="/Accounting">Accounting</NavLink>
+                    <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
+                  </li>
 
+                  {/* TRAINEE */}
+                  <li className="relative  hover:bg-gray-300 rounded-box  ">
+                     <NavLink to="/Tax">Tax</NavLink>
+                    <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
+                  </li>
+                  <li className="relative  hover:bg-gray-300 rounded-box  ">
+                 <NavLink to="/BusinessConsultation">Business Consultation</NavLink>
+                    <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
+                  </li>
+                </ul>
               </li>
               {/* Our Team */}
               <li className="px-1.5 sm:px-2.5 lg:px-4 md:px-5 text-[13px] sm:text-lg md:text-[22px]">
@@ -169,47 +174,46 @@ export const Navigation = () => {
                   Training Program
                 </NavLink>
                 <div className="w-50 top-7 right-4 bg-transparent h-10 absolute disabled:active"></div>
-          <ul
-  tabIndex="0"
-  className="dropdown-content menu bg-white rounded-box w-52 p-2 shadow-sm"
->
-                    {/* MODULE */}
-                    <li className="relative hover:bg-gray-300 rounded-box roybdb dropdown dropdown-hover">
-                      <a>Module</a>
-               <div className="w-10 top-0 right-[-10%]   h-10 absolute"></div>
-                      {/* Sub Dropdown */}
-                      <ul
-                        tabIndex="0"
-                        className="dropdown-content menu bg-white rounded-box w-48 p-2 shadow-sm absolute top-3 left-[195px] ml-1"
-                      >
-                        <li className="hover:bg-gray-200 rounded-box">
-                          <a>Module 1</a>
-                        </li>
-                        <li className="hover:bg-gray-200 rounded-box">
-                          <a>Module 2</a>
-                        </li>
-                      </ul>
-                    </li>
+                <ul
+                  tabIndex="0"
+                  className="dropdown-content menu bg-white rounded-box w-52 p-2 shadow-sm"
+                >
+                  {/* MODULE */}
+                  <li className="relative hover:bg-gray-300 rounded-box roybdb dropdown dropdown-hover">
+                    <a>Module</a>
+                    <div className="w-10 top-0 right-[-10%]   h-10 absolute"></div>
+                    {/* Sub Dropdown */}
+                    <ul
+                      tabIndex="0"
+                      className="dropdown-content menu bg-white rounded-box w-48 p-2 shadow-sm absolute top-3 left-[195px] ml-1"
+                    >
+                      <li className="hover:bg-gray-200 rounded-box">
+                        <a>Module 1</a>
+                      </li>
+                      <li className="hover:bg-gray-200 rounded-box">
+                        <a>Module 2</a>
+                      </li>
+                    </ul>
+                  </li>
 
-                    {/* TRAINEE */}
-                    <li className="relative  hover:bg-gray-300 rounded-box  dropdown  dropdown-hover">
-                      <a>Trainee</a>
- <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
-                      {/* Sub Dropdown */}
-                      <ul
-                        tabIndex="0"
-                        className="dropdown-content menu bg-white rounded-box w-48 p-2 shadow-sm absolute top-0 left-full ml-1"
-                      >
-                        <li className="hover:bg-gray-200 rounded-box">
-                          <a>Bach 1</a>
-                        </li>
-                        <li className="hover:bg-gray-200 rounded-box">
-                          <a>Bach 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-
+                  {/* TRAINEE */}
+                  <li className="relative  hover:bg-gray-300 rounded-box  dropdown  dropdown-hover">
+                    <a>Trainee</a>
+                    <div className="w-10 top-0 right-[-10%]  h-10 absolute"></div>
+                    {/* Sub Dropdown */}
+                    <ul
+                      tabIndex="0"
+                      className="dropdown-content menu bg-white rounded-box w-48 p-2 shadow-sm absolute top-0 left-full ml-1"
+                    >
+                      <li className="hover:bg-gray-200 rounded-box">
+                        <a>Bach 1</a>
+                      </li>
+                      <li className="hover:bg-gray-200 rounded-box">
+                        <a>Bach 2</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>

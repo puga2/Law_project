@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 // import phnom from "/images/phnom.jpg";
 // import temple from "/images/temple.jpg";
@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import join from "/images/join.jpg";
 import joinBack from "/images/joinBack.jpg";
 const JoinUsPage = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <>
       <div
