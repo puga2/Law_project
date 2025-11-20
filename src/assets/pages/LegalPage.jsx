@@ -2,6 +2,7 @@ import React from "react";
 // import { useNavigate } from "react-router-dom";
 
 import join from "/images/join.jpg";
+import logoAnnn from "/images/logoAnnn.png";
 // import joinBack from "/images/joinBack.jpg";
 const LegalPage = () => {
   return (
@@ -24,26 +25,10 @@ const LegalPage = () => {
 
       <div className=" ">
         <div className="flex flex-col-reverse md:flex-row-reverse  justify-between items-stretch   w-full px-0">
-          {/* <img src={home} className="sm:max-w-[50px]  md:max-w-xl  shadow-2xl mx-auto" /> */}
-
           {/* box left  */}
 
-          <div className="bg-white/80 shadow-lg md:w-[60%] lg:w-[55%] p-6 lg:p-15">
-            {/*
-               Commercial Contract Drafting & Review
-Crafting clear, precise contracts and conducting thorough reviews to ensure enforceable and risk-mitigated agreements.
+          <div className="bg-white/80 shadow-lg md:w-[60%] lg:w-[55%] px-15 pt-15 pb-10">
 
-Corporate Advisory
-Providing expert corporate guidance to strengthen compliance and support sustainable business growth.
-
-Compliance Health Check, Guidance
-Advising clients on meeting legal and regulatory requirements with efficiency and accuracy.
-
-Business Licensing
-Assisting clients in securing proper licenses, permits, and authorizations swiftly and effectively.
-
-Dispute Resolution & IP Protection
-Delivering efficient dispute resolution strategies and safeguarding intellectual property rights tailored to client objectives. */}
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-extrabold text-[#016241] tracking-wide">
                 Commercial Contract Drafting & Review
@@ -79,9 +64,10 @@ Delivering efficient dispute resolution strategies and safeguarding intellectual
                 Advising clients on meeting legal and regulatory requirements
                 with efficiency and accuracy.Assisting clients in securing
                 proper licenses, permits, and authorizations swiftly and
-                effectively.    </p>
+                effectively.
+              </p>
             </div>
-            <div className="mb-6">
+            <div className="">
               <h2 className="text-2xl md:text-3xl font-extrabold text-[#016241] tracking-wide">
                 Dispute Resolution & IP Protection
               </h2>
@@ -92,27 +78,30 @@ Delivering efficient dispute resolution strategies and safeguarding intellectual
               </p>
             </div>
           </div>
-          <div className="bg-[#016241] md:w-[40%] lg:w-[45%]   text-white  pt py-15 lg:pt-15 lg:pb-15 h-auto ">
-            <h2 className=" ps-20 text-[60px]  font-semibold leading-tighter  tracking-wider ">
-              COMPREHENSIVE
-            </h2>
-            <h2 className=" ps-20 text-[60px]  font-semibold leading-tighter  tracking-wider  ">
-              PROFESSIONAL
-            </h2>
-            <h2 className=" ps-20 text-[60px]  font-semibold leading-tighter  tracking-wider  ">
-              SUPPORT &
-            </h2>
-            <h2 className=" ps-20 text-[60px]  font-semibold leading-tighter  tracking-wider  ">
-              ADVISORY
-            </h2>
-            <h2 className=" ps-20 text-[60px]  font-semibold leading-tighter  tracking-wider  ">
-              SERVICES
-            </h2>
-            {/* <ul className="py-6 tracking-wider font-normal text-lg leading-loose mx-10 list-disc">
-                  <li className="">corporate compliance</li>
-                  <li>Tax Compliance</li>
-                  <li>Financial Compliance</li>
-                </ul> */}
+
+          <div className="bg-[#016241] md:w-[40%] lg:w-[45%] relative overflow-hidden  text-white   lg:pt-15 lg:pb-15 h-auto ">
+            <div className="flex flex-col justify-center items-center  w-full">
+              <div className="">
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider ">
+                  COMPREHENSIVE
+                </h2>
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
+                  PROFESSIONAL
+                </h2>
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
+                  SUPPORT &
+                </h2>
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
+                  ADVISORY
+                </h2>
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
+                  SERVICES
+                </h2>
+              </div>
+            </div>
+           <div className="absolute bottom-[-100px] left-[-100px] rotate-90 mix-blend-lighten opacity-10">
+            <img src={logoAnnn}  width="580px" className="" alt="" />
+           </div>
           </div>
         </div>
       </div>
