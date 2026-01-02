@@ -2,6 +2,8 @@ import React from "react";
 // import home from "/images/home.png";
 import heroHome from "/images/heroHome.jpg";
 import homeImage from "/images/HomeImage.jpg";
+import newyear from "/images/newyear.jpg";
+import newyearkh from "/images/newyearkh.jpg";
 const HomePage = () => {
   return (
     <>
@@ -17,6 +19,20 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <div className="text-[#016241] text-center font-bold  mx-auto w-[70%] lg:w-40%] tracking-wider mt-10 mb-10">
+        <h1 className="text-5xl ">HAPPY NEW YEAR 2026</h1>
+       <hr className="w-[295px] mx-auto border-t-2 border-[#016241] my-4" />
+      </div>
+<div className="mx-auto max-w-7xl mb-10 px-4">
+  <div className="flex flex-col md:flex-row w-full md:h-[1000px] justify-around gap-10">
+    <div className="flex items-start justify-center md:justify-start">
+      <img src={newyearkh} className="w-full max-w-[200px] sm:max-w-[300px] md:max-w-xl object-cover shadow-2xl" />
+    </div>
+    <div className="flex items-end justify-center md:justify-start">
+      <img src={newyear} className="w-full max-w-[200px] sm:max-w-[300px] md:max-w-xl object-cover shadow-2xl" />
+    </div>
+  </div>
+</div>
       {/* feature  */}
       <div className="hero bg-[#ECF9FF] mx-auto max-w-7xl mb-10">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse justify-center items-start p-4 md:p-8 lg:p-12 w-full">
