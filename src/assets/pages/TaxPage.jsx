@@ -24,7 +24,28 @@ const TaxPage = () => {
       {/* feature  */}
 
       <div className=" ">
-        <div className="flex flex-col-reverse md:flex-row-reverse  justify-between items-stretch   w-full px-0">
+        <div className="flex flex-col md:flex-row-reverse  justify-between items-stretch   w-full px-0">
+           <div className="bg-[#016241] md:w-[40%] lg:w-[45%] relative overflow-hidden  text-white p-10  lg:pt-15 lg:pb-15 h-auto ">
+            <div className="flex flex-col justify-center items-center  w-full">
+              <div className="">
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider ">
+                  STRATEGIC TAX
+                </h2>
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
+                  CONSULTING &
+                </h2>
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
+                  COMPLIANCE
+                </h2>
+                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
+                  SOLUTIONS
+                </h2>
+              </div>
+            </div>
+            <div className="absolute bottom-[-100px] left-[-100px] rotate-90 mix-blend-lighten opacity-10">
+              <img src={logoAnnn} width="580px" className="" alt="" />
+            </div>
+          </div>
           <div className="bg-white/80 shadow-lg md:w-[60%] lg:w-[55%] p-6 lg:p-15">
             <div className="mb-6">
               <h2 className="text-2xl md:text-3xl font-extrabold text-[#016241] tracking-wide">
@@ -59,27 +80,7 @@ const TaxPage = () => {
               </p>
             </div>
           </div>
-          <div className="bg-[#016241] md:w-[40%] lg:w-[45%] relative overflow-hidden  text-white   lg:pt-15 lg:pb-15 h-auto ">
-            <div className="flex flex-col justify-center items-center  w-full">
-              <div className="">
-                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider ">
-                  STRATEGIC TAX
-                </h2>
-                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
-                  CONSULTING &
-                </h2>
-                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
-                  COMPLIANCE
-                </h2>
-                <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider  ">
-                  SOLUTIONS
-                </h2>
-              </div>
-            </div>
-            <div className="absolute bottom-[-100px] left-[-100px] rotate-90 mix-blend-lighten opacity-10">
-              <img src={logoAnnn} width="580px" className="" alt="" />
-            </div>
-          </div>
+         
         </div>
       </div>
     </>

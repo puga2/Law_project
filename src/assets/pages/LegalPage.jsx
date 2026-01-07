@@ -79,7 +79,7 @@ const LegalPage = () => {
             </div>
           </div>
 
-          <div className="bg-[#016241] md:w-[40%] lg:w-[45%] relative overflow-hidden  text-white   lg:pt-15 lg:pb-15 h-auto ">
+          <div className="bg-[#016241] md:w-[40%] lg:w-[45%] relative overflow-hidden  text-white  p-10 lg:pt-15 lg:pb-15 h-auto ">
             <div className="flex flex-col justify-center items-center  w-full">
               <div className="">
                 <h2 className="text-[40px] lg:text-[65px]  font-semibold leading-tighter  tracking-wider ">

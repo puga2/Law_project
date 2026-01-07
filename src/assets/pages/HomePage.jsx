@@ -20,23 +20,23 @@ const HomePage = () => {
         </div>
       </div>
       <div className="text-[#016241] text-center font-bold  mx-auto w-[70%] lg:w-40%] tracking-wider mt-10 mb-10">
-        <h1 className="text-5xl ">HAPPY NEW YEAR 2026</h1>
-       <hr className="w-[295px] mx-auto border-t-2 border-[#016241] my-4" />
+        <h1 className="text-xl sm:text-2xl md:text-5xl ">HAPPY NEW YEAR 2026</h1>
+       <hr className="w-[150px] md:w-[295px] mx-auto border-t-2 border-[#016241] my-4" />
       </div>
 <div className="mx-auto max-w-7xl mb-10 px-4">
-  <div className="flex flex-col md:flex-row w-full md:h-[1000px] justify-around gap-10">
-    <div className="flex items-start justify-center md:justify-start">
-      <img src={newyearkh} className="w-full max-w-[200px] sm:max-w-[300px] md:max-w-xl object-cover shadow-2xl" />
+  <div className="flex flex-col lg:flex-row w-full h-auto lg:h-[1000px] justify-around gap-10">
+    <div className="flex items-start justify-center lg:justify-start">
+      <img src={newyearkh} className="w-full sm:max-w-[300px] md:max-w-xl object-cover shadow-2xl" />
     </div>
-    <div className="flex items-end justify-center md:justify-start">
-      <img src={newyear} className="w-full max-w-[200px] sm:max-w-[300px] md:max-w-xl object-cover shadow-2xl" />
+    <div className="flex items-end justify-center lg:justify-start">
+      <img src={newyear} className="w-full  sm:max-w-[300px] md:max-w-xl object-cover shadow-2xl" />
     </div>
   </div>
 </div>
       {/* feature  */}
       <div className="hero bg-[#ECF9FF] mx-auto max-w-7xl mb-10">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse justify-center items-start p-4 md:p-8 lg:p-12 w-full">
-          <img src={homeImage} className="sm:max-w-[50px] object-cover  md:max-w-xl  shadow-2xl mx-auto" />
+          <img src={homeImage} className="sm:max-w-[50px] object-cover   md:max-w-xl lg:max-w-md shadow-2xl mx-auto" />
           <div>
             <h1 className="text-3xl md:text-4xl font-bold text-[#016241] tracking-wide">
             Your Trusted Partner 

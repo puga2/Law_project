@@ -14,6 +14,13 @@ export const Navigation = () => {
   const isServiceActive = serviceChildPaths.some((p) =>
     location.pathname.toLowerCase().startsWith(p.toLowerCase())
   );
+  const trainingChildPaths = [
+    "/training",
+    "/bach-one",
+  ];
+  const isTrainingActive = trainingChildPaths.some((p) =>
+    location.pathname.toLowerCase().startsWith(p.toLowerCase())
+  );
   return (
     <>
       {/* Header always fixed */}
@@ -164,11 +171,11 @@ export const Navigation = () => {
               <li className="px-1.5 sm:px-2.5 lg:px-4 md:px-5 text-[13px] sm:text-lg md:text-[22px] dropdown dropdown-hover relative ">
                 <NavLink
                   to="/training"
-                  className={({ isActive }) =>
+                  className={() =>
                     `relative px-0 after:content-[''] after:absolute after:left-0 after:-bottom-0
                     after:h-[2px] after:w-0 after:bg-[#016241] after:transition-all after:duration-300 
                     hover:after:w-full !bg-transparent hover:text-[#016241]
-                    ${isActive ? "after:w-full text-[#016241]" : ""}`
+                    ${isTrainingActive ? "after:w-full text-[#016241]" : ""}`
                   }
                 >
                   Training Program
@@ -206,7 +213,7 @@ export const Navigation = () => {
                       className="dropdown-content menu bg-white rounded-box w-48 p-2 shadow-sm absolute top-0 left-full ml-1"
                     >
                       <li className="hover:bg-gray-200 rounded-box">
-                        <a>Bach 1</a>
+                      <NavLink to="/bach-one">Bach one</NavLink>
                       </li>
                       <li className="hover:bg-gray-200 rounded-box">
                         <a>Bach 2</a>

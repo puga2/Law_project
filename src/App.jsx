@@ -18,6 +18,7 @@ import { Navigation } from './assets/components/Navigation'
 import FloatingLegalChat from './assets/components/FloatingLegalChat'
 import LegalPage from './assets/pages/LegalPage'
 import TaxPage from './assets/pages/TaxPage'
+import BachOne from './assets/pages/BachOne'
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
     <Route path="/register" element={<RegisterForm />} />
     <Route path="/appointment" element={<AppointmenPage />} />
     <Route path="/training" element={<TrainingPro />} />
+     <Route path="/bach-one" element={<BachOne />} />
     <Route path="/membership" element={<Membership />} />
       <Route path="/our-service" element={<OurService />} />
       <Route path="/legal" element={<LegalPage />} />
